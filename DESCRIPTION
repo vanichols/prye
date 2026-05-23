@@ -12,3 +12,13 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 URL: https://github.com/vanichols/prye
 BugReports: https://github.com/vanichols/prye/issues
+Imports: 
+    cli,
+    glue,
+    lifecycle,
+    magrittr,
+    rlang,
+    withr
+Depends: 
+    R (>= 2.10)
+LazyData: true

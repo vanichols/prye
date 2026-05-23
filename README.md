@@ -1,0 +1,29 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# prye
+
+<!-- badges: start -->
+
+<!-- badges: end -->
+
+The goal of prye is to organize disparate field trial data.
+
+## Installation
+
+You can install the development version of prye from
+[GitHub](https://github.com/) with:
+
+``` r
+# install.packages("pak")
+pak::pak("vanichols/prye")
+```
+
+## Example
+
+This shows how data from a given trial can be accessed easily:
+
+``` r
+library(prye)
+## coming soon
+```
