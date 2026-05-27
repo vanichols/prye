@@ -1,0 +1,13 @@
+trt_name,trt_id,trt_desc
+a,sexy1_24/25_a,"Annual cereal rye hybrid (A), planted fall 2024, 12.5 cm rows, no post-harvest cover crop, herbicides"
+acc,sexy1_24/25_acc,"Annual cereal rye hybrid (A), planted fall 2024, 12.5 cm rows, post-harvest cover crop mix, herbicides"
+apmix,sexy1_24/25_apmix,"Annual cereal rye hybrid (A) and perennial cereal rye (P) mix, planted fall 2024, mixed 12.5 cm rows, no post-harvest cover crop, herbicides"
+aprows,sexy1_24/25_aprows,"Annual cereal rye hybrid (A) and perennial cereal rye (P) mix, planted fall 2024, alternating 12.5 cm rows, no post-harvest cover crop, herbicides"
+p,sexy1_24/25_p,"Perennial cereal rye (P), planted fall 2024, 12.5 cm rows, no post-harvest cover crop, herbicides"
+pcc,sexy1_24/25_pcc,"Perennial cereal rye (P), planted fall 2024, 12.5 cm rows, post-harvset cover crop mix, herbicides"
+xa,sexy1_24/25_xa,"Annual cereal rye hybrid (A), planted fall 2024, 12.5 cm rows, no post-harvest cover crop, no herbicides"
+xacc,sexy1_24/25_xacc,"Annual cereal rye hybrid (A), planted fall 2024, 12.5 cm rows, post-harvest cover crop mix, no herbicides"
+xapmix,sexy1_24/25_xapmix,"Annual cereal rye hybrid (A) and perennial cereal rye (P) mix, planted fall 2024, mixed 12.5 cm rows, no post-harvest cover crop, no herbicides"
+xaprows,sexy1_24/25_xaprows,"Annual cereal rye hybrid (A) and perennial cereal rye (P) mix, planted fall 2024, alternating 12.5 cm rows, no post-harvest cover crop, no herbicides"
+xp,sexy1_24/25_xp,"Perennial cereal rye (P), planted fall 2024, 12.5 cm rows, no post-harvest cover crop, no herbicides"
+xpcc,sexy1_24/25_xpcc,"Perennial cereal rye (P), planted fall 2024, 12.5 cm rows, post-harvset cover crop mix, no herbicides"

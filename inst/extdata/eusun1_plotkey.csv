@@ -1,0 +1,17 @@
+plot_id,sea_id,plot,block,trt_name
+eusun1_26W,eusun1_24/25,26W,B1,p_lowdens
+eusun1_26E,eusun1_24/25,26E,B1,p_normdens
+eusun1_66W,eusun1_24/25,66W,B1,p_lowdens_bioharv
+eusun1_66E,eusun1_24/25,66E,B1,p_normdens_bioharv
+eusun1_4W,eusun1_24/25,4W,B2,p_lowdens
+eusun1_4E,eusun1_24/25,4E,B2,p_normdens
+eusun1_3W,eusun1_24/25,3W,B2,p_lowdens_bioharv
+eusun1_3E,eusun1_24/25,3E,B2,p_normdens_bioharv
+eusun1_13W,eusun1_24/25,13W,B3,p_lowdens
+eusun1_13E,eusun1_24/25,13E,B3,p_normdens
+eusun1_69W,eusun1_24/25,69W,B3,p_lowdens_bioharv
+eusun1_69E,eusun1_24/25,69E,B3,p_normdens_bioharv
+eusun1_8W,eusun1_24/25,8W,B4,p_lowdens
+eusun1_8E,eusun1_24/25,8E,B4,p_normdens
+eusun1_55W,eusun1_24/25,55W,B4,p_lowdens_bioharv
+eusun1_55E,eusun1_24/25,55E,B4,p_normdens_bioharv

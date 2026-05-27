@@ -1,0 +1,9 @@
+field_id,sea_id,crop_name,crop_provenance,tkw_of_planted_seed_g,germination_pct
+sexy1,sexy1_24/25,perennial rye,"Perennial cereal rye population from Germany, seed from Foulum 23/24 season (which had 2% ergot when received)",27,86
+sexy1,sexy1_24/25,annual rye,Annual cereal rye (SU Thor) hybrid,42,95
+sexy2,sexy2_24/25,perennial rye,Perennial cereal rye population from RePhilDK25 (seed increase harvested in Flakkebjerg from seed1 field in 2025),Either NA or unknown,65
+sexy2,sexy2_24/25,annual rye,Annual cereal rye (??) hybrid,Either NA or unknown,85
+seed1,sexy1_24/25,perennial rye,"Perennial cereal rye population from Germany, seed from Foulum 23/24 season (which had 2% ergot when received)",27,86
+seed1,sexy1_25/26,perennial rye,Perennial cereal rye population from RePhilDK25 (seed increase harvested in Flakkebjerg from seed1 field in 2025),Either NA or unknown,65
+eusun1,eusun1_24/25,perennial rye,"Perennial cereal rye population from Germany, seed from Foulum 23/24 season (which had 2% ergot when received)",Either NA or unknown,86
+clim1,clim1_26/27,spring perennial rye,Perennial cereal rye population from RePhilDK25 (seed increase harvested in Flakkebjerg from seed1 field in 2025),Either NA or unknown,65

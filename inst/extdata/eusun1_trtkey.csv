@@ -1,0 +1,5 @@
+trt_name,trt_id,trt_raw,trt_desc
+p_lowdens,eusun1_24/25_p_lowdens,17_West,"Perennial cereal rye (P), planted fall 2024, 24 cm rows, 1/3 plant density (100 pl m-2), no biomass harvest"
+p_lowdens_bioharv,eusun1_24/25_p_lowdens_bioharv,18_West,"Perennial cereal rye (P), planted fall 2024, 24 cm rows, 1/3 plant density (100 pl m-2), one May biomass harvest"
+p_normdens,eusun1_24/25_p_normdens,17_East,"Perennial cereal rye (P), planted fall 2024, 24 cm rows, full plant density (300 pl m-2), no biomass harvest"
+p_normdens_bioharv,eusun1_24/25_p_normdens_bioharv,18_East,"Perennial cereal rye (P), planted fall 2024, 24 cm rows, full plant density (300 pl m-2), one May biomass harvest"
