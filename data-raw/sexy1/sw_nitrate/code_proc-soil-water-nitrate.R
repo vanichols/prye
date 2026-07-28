@@ -1,3 +1,7 @@
+#--created 28 july 2028
+#--updated
+#--purpose: read in lab's water nitrate data
+
 library(tidyverse)
 
 rm(list = ls())
