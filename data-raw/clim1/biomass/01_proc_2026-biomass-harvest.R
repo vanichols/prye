@@ -72,3 +72,18 @@ clim1_forage %>%
   write_csv("inst/extdata/clim1_forage.csv")
 
 
+# look at it --------------------------------------------------------------
+
+
+clim1_forage |>
+  ggplot(aes(trt_name, value)) +
+  geom_col(aes(fill = biomass_cat)) +
+  facet_grid(block~.) +
+  coord_flip()
+
+clim1_forage |>
+  group_by(trt_name, biomass_cat) |>
+  summarise(value = mean(value)) |>
+  ggplot(aes(trt_name, value)) +
+  geom_col(aes(fill = biomass_cat), color = "black") +
+  coord_flip()

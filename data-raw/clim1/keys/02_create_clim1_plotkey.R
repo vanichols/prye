@@ -15,10 +15,10 @@ rm(list = ls())
 
 # 1. raw data -------------------------------------------------------------
 
+#--this is created by 00_randomly assign plots to treatments
 #--clim1, handmade, make sure to read in the most up-to-date one
 d1 <-
-  read_excel("data-raw/clim1/keys/plot-key-v2.xlsx") |>
-  select(-trt_nu)
+  read_excel("data-raw/clim1/keys/2026fa_plot-key.xlsx")
 
 
 # done --------------------------------------------------------------------

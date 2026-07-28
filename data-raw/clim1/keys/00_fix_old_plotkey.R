@@ -77,5 +77,5 @@ d4 <-
   mutate(trt_nu = ifelse(trt_name == "PRACTICE PLOT", 0, trt_nu))
 
 d4 |>
-  write_xlsx("data-raw/clim1/keys/plot-key-v2.xlsx")
+  write_xlsx("data-raw/clim1/keys/2026sp_plot-key.xlsx")
 
