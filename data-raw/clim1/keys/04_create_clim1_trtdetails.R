@@ -1,15 +1,15 @@
-#--last updated 27 may 2026
+#--not created yet....
 
-#--want something simple
-# just trt_id: sexy1_24/25_p etc
-#      trt_name: p
-#      trt_desc: Perennial cereal rye...
-#
+
 
 library(readxl)
 library(tidyverse)
 
 rm(list = ls())
+
+
+
+# example from sexy1 ------------------------------------------------------
 
 
 # 1. raw data -------------------------------------------------------------

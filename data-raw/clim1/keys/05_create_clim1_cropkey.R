@@ -1,9 +1,14 @@
-#--manually created a cropkey
+#--is this worth it? not sure,
 
 library(readxl)
 library(tidyverse)
 
 rm(list = ls())
+
+
+# example from sexy1 ------------------------------------------------------
+
+
 
 # 1. raw data -------------------------------------------------------------
 
