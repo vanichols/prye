@@ -17,6 +17,8 @@ library(tidyverse)
 # field_country - the country, who knows could have more than one someday!
 
 #--add a new row when I add a field
+#--field_id should be unique to each field
+#--sexy1 I return to, not sure if I should call it sexy3
 
 a1 <-
   tribble(

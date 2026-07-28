@@ -1,0 +1,6 @@
+name,example,description
+field_id,sexy1,see fieldkey for what this links to
+sea_name,26/25,this is combined with the field_id to make a sea_id
+block,B1,the B is to make it non-numeric in stats models
+plot,104,"whatever the local plot name is for the trial, it is combined with the field_id to make a plot_id"
+trt_name,xpcc,"whatever the local treatment name is, should be unique within the trial"

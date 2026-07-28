@@ -7,6 +7,14 @@
 #      block: B1
 #      trt_name: p
 
+#--NOTE I think this should change (27 jul) to:
+# field_id: sexy1
+# sea_name: 24/25
+# block: B1
+# plot: 101
+# trt_name; apmix
+
+
 library(readxl)
 library(tidyverse)
 
@@ -25,17 +33,17 @@ d1 <-
   filter(!is.na(trt_name)) |>
   distinct()
 
-#--sexy1, 24/25
+#--sexy1, 24/25, B1
 d2 <-
   d1 |>
   mutate(
-    plot_id = paste("sexy1", plot, sep = "_"),
-    sea_id = paste("sexy1", "24/25", sep = "_"),
+    field_id = "sexy1",
+    sea_name = "24/25",
     block = paste0("B", block))
 
 d3 <-
   d2 |>
-  select(plot_id, sea_id, block, plot, trt_name)
+  select(field_id, sea_name, block, plot, trt_name)
 
 # done --------------------------------------------------------------------
 
