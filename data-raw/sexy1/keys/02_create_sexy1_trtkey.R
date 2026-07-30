@@ -29,7 +29,7 @@ d2 <-
   d1 |>
   mutate(
     field_id = "sexy1",
-    sea_name = "25/25",
+    sea_name = "24/25",
     trt_id = paste(field_id, sea_name, trt_name, sep = "_"))
 
 # 2. add trt_desc -------------------------------------------------------
