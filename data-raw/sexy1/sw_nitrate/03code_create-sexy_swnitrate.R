@@ -26,7 +26,8 @@ a2 <-
 # 3. add season_name -----------------------------------------------------------
 a3 <-
   a2 |>
-  mutate(sea_name = "25/26") |>
+  mutate(sea_name = "24/25",
+         plot = as.character(plot)) |>
   select(field_id, sea_name, everything())
 
 # 3. write ----------------------------------------------------------------

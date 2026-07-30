@@ -28,7 +28,9 @@ d1 <-
 d2 <-
   d1 |>
   mutate(
-    trt_id = paste("sexy1", "24/25", trt_name, sep = "_"))
+    field_id = "sexy1",
+    sea_name = "25/25",
+    trt_id = paste(field_id, sea_name, trt_name, sep = "_"))
 
 # 2. add trt_desc -------------------------------------------------------
 
@@ -37,8 +39,8 @@ d3 <-
   mutate(trt_desc = case_when(
     trt_name == "p" ~ "Perennial cereal rye (P), planted fall 2024, 12.5 cm rows, no post-harvest cover crop, herbicides",
     trt_name == "xp" ~ "Perennial cereal rye (P), planted fall 2024, 12.5 cm rows, no post-harvest cover crop, no herbicides",
-    trt_name == "pcc" ~ "Perennial cereal rye (P), planted fall 2024, 12.5 cm rows, post-harvset cover crop mix, herbicides",
-    trt_name == "xpcc" ~ "Perennial cereal rye (P), planted fall 2024, 12.5 cm rows, post-harvset cover crop mix, no herbicides",
+    trt_name == "pcc" ~ "Perennial cereal rye (P), planted fall 2024, 12.5 cm rows, post-harvest cover crop mix, herbicides",
+    trt_name == "xpcc" ~ "Perennial cereal rye (P), planted fall 2024, 12.5 cm rows, post-harvest cover crop mix, no herbicides",
 
     trt_name == "a" ~ "Annual cereal rye hybrid (A), planted fall 2024, 12.5 cm rows, no post-harvest cover crop, herbicides",
     trt_name == "xa" ~ "Annual cereal rye hybrid (A), planted fall 2024, 12.5 cm rows, no post-harvest cover crop, no herbicides",
@@ -57,6 +59,7 @@ d3 <-
 
 sexy1_trtkey <-
   d3 |>
+  select(field_id, sea_name, everything()) |>
   arrange(trt_name)
 
 usethis::use_data(sexy1_trtkey, overwrite = TRUE)
