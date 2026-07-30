@@ -23,8 +23,14 @@ a2 <-
   )
 
 
+# 3. add season_name -----------------------------------------------------------
+a3 <-
+  a2 |>
+  mutate(sea_name = "25/26") |>
+  select(field_id, sea_name, everything())
+
 # 3. write ----------------------------------------------------------------
 
-sexy1_swnitrate <- a2
+sexy1_swnitrate <- a3
 
 usethis::use_data(sexy1_swnitrate, overwrite = TRUE)

@@ -19,7 +19,11 @@ d <- tribble(
 
   "eusun1",       "eusun1_24/25",      "perennial rye",         "Perennial cereal rye population from Germany, seed from Foulum 23/24 season (which had 2% ergot when received)",
 
-  "clim1",        "clim1_26/27",      "spring perennial rye",         "Perennial cereal rye population from RePhilDK25 (seed increase harvested in Flakkebjerg from seed1 field in 2025)"
+  "clim1",        "clim1_26/27",      "spring perennial rye",         "Perennial cereal rye population from RePhilDK25 (seed increase harvested in Flakkebjerg from seed1 field in 2025)",
+
+  "clim1",         "clim1_26/27",      "Reimontra perennial rye",      "Perennial rye Reimonta from “Revierberatung Wolmersdorf”
+https://www.saatgut-shop.de/product_info.php?info=p208_roggen---waldstaudenroggen-reimonta---secale-multicaule----1-kg.html
+"
 
   )
 
