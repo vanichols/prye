@@ -48,7 +48,7 @@ a5 <-
   a4 |>
   mutate(data_type = "nitrateN_mgl") |>
   rename(value = nitrate2) |>
-  select(field_id, sea_name, plot, data_type, everything(), -nitraten_mgl)
+  select(field_id, sea_name, sampledate_ymd = sample_date_ymd, plot, data_type, everything(), -nitraten_mgl)
 
 # 6. failed plots ---------------------------------------------------------
 
