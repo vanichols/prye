@@ -30,17 +30,38 @@ a3 <-
   select(-analyzer_id)
 
 
-
-# 4. change to data_type and value notation -------------------------------
+# 4. amount below detection, 0 --------------------------------------------
 
 a4 <-
   a3 |>
+  mutate(nitrate2 = case_when(
+    grepl("under", nitraten_mgl) ~ 0,
+    TRUE ~ as.numeric(nitraten_mgl)))
+
+#--the Nas or ok
+a4 |>
+  filter(is.na(nitraten_mgl))
+
+# 5. change to data_type and value notation -------------------------------
+
+a5 <-
+  a4 |>
   mutate(data_type = "nitrateN_mgl") |>
-  rename(value = nitraten_mgl) |>
-  select(field_id, sea_name, plot, data_type, everything())
+  rename(value = nitrate2) |>
+  select(field_id, sea_name, plot, data_type, everything(), -nitraten_mgl)
+
+# 6. failed plots ---------------------------------------------------------
+
+#--plots 203 and 212 were failed mixed plantings, remove them
+a6 <-
+  a5 |>
+  mutate(value = case_when(
+    plot %in% c("203", "212") ~ NA,
+    TRUE ~ value
+  ))
 
 # 3. write ----------------------------------------------------------------
 
-sexy1_swnitrate <- a4
+sexy1_swnitrate <- a6
 
 usethis::use_data(sexy1_swnitrate, overwrite = TRUE)
