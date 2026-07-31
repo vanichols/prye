@@ -21,15 +21,15 @@ rm(list = ls())
 
 #--sexy1, handmade
 #--pull out the unique treatments
-d1 <-
-  read_excel("data-raw/sexy1/keys/sexy1-2024_eukey.xlsx", skip = 5) |>
+d0 <-
+  read_excel("data-raw/sexy1/00_keys/sexy1-2024_eukey.xlsx", skip = 5) |>
   select(trt_name = trt_id) |>
   filter(!is.na(trt_name)) |>
   distinct()
 
 #--make a trt_id for the first year
-d2 <-
-  d1 |>
+d1 <-
+  d0 |>
   mutate(
     field_id = "sexy1",
     sea_name = "24/25",
@@ -37,8 +37,8 @@ d2 <-
 
 # 2. add trt_desc -------------------------------------------------------
 
-d3 <-
-  d2 |>
+d2 <-
+  d1 |>
   mutate(trt_desc = case_when(
     trt_name == "p" ~ "Perennial cereal rye (P), planted fall 2024, 12.5 cm rows, no post-harvest cover crop, herbicides",
     trt_name == "xp" ~ "Perennial cereal rye (P), planted fall 2024, 12.5 cm rows, no post-harvest cover crop, no herbicides",
@@ -59,7 +59,14 @@ d3 <-
 
 # 3. add a trt_nice for fig labels ----------------------------------------
 
-
+d3 <-
+  d2 |>
+  mutate(trt_nice = case_when(
+  trt_name %in% c("a", "acc", "xa", "xacc") ~ "Annual",
+  trt_name %in% c("p", "pcc", "xp", "xpcc") ~ "Perennial",
+  trt_name %in% c("apmix", "xapmix") ~ "Annual/Perennial Mix",
+  trt_name %in% c("aprows", "xaprows") ~ "Annual/Perennial Mix",
+))
 
 # done --------------------------------------------------------------------
 
