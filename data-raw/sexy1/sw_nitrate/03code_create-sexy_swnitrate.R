@@ -12,7 +12,6 @@ library(readr)
 a1a <- read_csv("data-raw/sexy1/sw_nitrate/tidy_analyzerid-key.csv")
 a1b <- read_csv("data-raw/sexy1/sw_nitrate/tidy_raw-data.csv")
 
-
 # 2. merge ----------------------------------------------------------------
 
 a2 <-
@@ -28,10 +27,20 @@ a3 <-
   a2 |>
   mutate(sea_name = "24/25",
          plot = as.character(plot)) |>
-  select(field_id, sea_name, everything())
+  select(-analyzer_id)
+
+
+
+# 4. change to data_type and value notation -------------------------------
+
+a4 <-
+  a3 |>
+  mutate(data_type = "nitrateN_mgl") |>
+  rename(value = nitraten_mgl) |>
+  select(field_id, sea_name, plot, data_type, everything())
 
 # 3. write ----------------------------------------------------------------
 
-sexy1_swnitrate <- a3
+sexy1_swnitrate <- a4
 
 usethis::use_data(sexy1_swnitrate, overwrite = TRUE)

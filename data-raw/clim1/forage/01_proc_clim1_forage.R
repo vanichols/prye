@@ -1,5 +1,7 @@
-# created 28 july 2026
-# purpose: process the cadillac biomass harvest and separation anders and cecilie did
+#--created: july 2026
+#--purpose: process the 2026 cadillac biomass harvest and separation anders and cecilie did
+
+#--last updated:
 
 
 library(tidyverse)
@@ -7,7 +9,7 @@ library(readxl)
 
 rm(list = ls())
 
-raw <- read_excel("data-raw/clim1/biomass/2026-07-21_Climax Forage harvest-manual.xlsx", sheet = "hand", skip = 5)
+raw <- read_excel("data-raw/clim1/forage/2026-07-21_Climax Forage harvest-manual.xlsx", sheet = "hand", skip = 5)
 
 clim1_plotkey <- read_csv("inst/extdata/clim1_plotkey.csv")
 

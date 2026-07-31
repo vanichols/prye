@@ -1,9 +1,12 @@
-#--last updated 27 may 2026
+# purpose:    have more info connected to trt_name
+# created:    july 2026
 
 #--want something simple
-# just trt_id: sexy1_24/25_p etc
-#      trt_name: p
-#      trt_desc: Perennial cereal rye...
+# trt_id: sexy1_24/25_p etc
+# trt_name: p
+# trt_nice: Perennial rye
+# trt_niceshort: A/P mix, (P)+, (Pcc)+ etc. ??
+# trt_desc: Perennial cereal rye...
 #
 
 #--free form description, but using commas with crop, planting season, relevant treatment descriptions
@@ -52,6 +55,9 @@ d3 <-
     trt_name == "apmix" ~ "Annual cereal rye hybrid (A) and perennial cereal rye (P) mix, planted fall 2024, mixed 12.5 cm rows, no post-harvest cover crop, herbicides",
     trt_name == "xapmix" ~ "Annual cereal rye hybrid (A) and perennial cereal rye (P) mix, planted fall 2024, mixed 12.5 cm rows, no post-harvest cover crop, no herbicides")
     )
+
+
+# 3. add a trt_nice for fig labels ----------------------------------------
 
 
 
