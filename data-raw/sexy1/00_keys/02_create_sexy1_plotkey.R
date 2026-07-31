@@ -11,7 +11,7 @@
 # field_id: sexy1
 # sea_name: 24/25
 # block: B1
-# plot: 101
+# plot: 101 (but as a character!)
 # trt_name; apmix
 
 
@@ -25,7 +25,7 @@ rm(list = ls())
 
 #--sexy1, handmade
 d1 <-
-  read_excel("data-raw/sexy1/keys/sexy1-2024_eukey.xlsx", skip = 5) |>
+  read_excel("data-raw/sexy1/00_keys/sexy1-2024_eukey.xlsx", skip = 5) |>
   select(
     block,
     plot,
@@ -39,7 +39,8 @@ d2 <-
   mutate(
     field_id = "sexy1",
     sea_name = "24/25",
-    block = paste0("B", block))
+    block = paste0("B", block),
+    plot = as.character(plot))
 
 d3 <-
   d2 |>
