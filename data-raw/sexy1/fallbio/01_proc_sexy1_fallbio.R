@@ -11,7 +11,7 @@ sexy1_plotkey <-
   read_csv("inst/extdata/sexy1_plotkey.csv")
 
 #--pulled from emma's pkg on 4 aug 2026
-load("data-raw/sexy1/biomass/cc_biomass.rda")
+load("data-raw/sexy1/fallbio/cc_biomass.rda")
 
 #--field_id
 #--sea_name
@@ -80,9 +80,87 @@ d7 <-
 d7 |>
   arrange(trt_name, block, plot, sampledate_ymd2, biomass_cat)
 
+#--change columns to match other data files
+d8 <-
+  d7 |>
+  mutate(data_type = "fallbio_kgha") |>
+  rename(value  = biomass_kgha) |>
+  select(field_id, sea_name, trt_name, block, plot,
+         sampledate_ymd2,
+         data_type,
+         biomass_cat,
+         value)
+
+
+# 9. weedbiomass -------------------------------------------------------------
+
+load("data-raw/sexy1/fallbio/weedbiomass_bulked.rda")
+
+d9 <-
+  weedbiomass_bulked |>
+  mutate(across(where(is.factor), as.character)) |>
+  mutate(field_id = "sexy1",
+         sea_name = "24/25",
+         trt_name = trt_id,
+         plot = as.numeric(plot))
+
+d10 <-
+  d9 |>
+  select(-block) |>
+  left_join(sexy1_plotkey |> select(plot, block))
+
+#--make sure date is right, keep the columns I want
+d11 <-
+  d10 |>
+  mutate(sampledate_ydm = ydm(sample_date),
+         sampledate_ymd = paste(sampledate_year, sampledate_month, sampledate_day, sep = "-"),
+         sampledate_ymd = ymd(sampledate_ymd)) |>
+  select(field_id, sea_name, trt_name, block, plot,
+         sampledate_id, #--some samplings were spread over two days, Emma is very precise
+         sampledate_ymd,
+         subsample_id,
+         weedbiomass_kg_ha)
+
+#--take the minimum date at every sampling point
+d12 <-
+  d11 |>
+  group_by(sampledate_id) |>
+  mutate(sampledate_ymd2 = min(sampledate_ymd))
+
+
+d13 <-
+  d12 |>
+  mutate(biomass_cat = "weeds",
+         data_type = "fallbio_kgha") |>
+  rename(value = weedbiomass_kg_ha)
+
+#--get last sampling to match with other biomass
+
+d14 <-
+  d13 |>
+  ungroup() |>
+  filter(sampledate_ymd2 == max(sampledate_ymd2))
+
+d15 <-
+  d14 |>
+  arrange(block, plot) |>
+  select(-sampledate_id, -sampledate_ymd, -subsample_id)
+
+
+
+# 16. add weeds to other fallbio types ------------------------------------
+
+#--clean up weeds data
+
+d16 <-
+  d8 |>
+  bind_rows(d15) |>
+  arrange(block, plot, sampledate_ymd2, data_type, biomass_cat)
+
+
 # write it ----------------------------------------------------------------
 
-sexy1_fallbio <-  d7
+sexy1_fallbio <-  d16
 
 usethis::use_data(sexy1_fallbio, overwrite = TRUE)
 
