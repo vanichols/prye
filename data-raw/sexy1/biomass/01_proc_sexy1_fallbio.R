@@ -10,7 +10,8 @@ rm(list = ls())
 sexy1_plotkey <-
   read_csv("inst/extdata/sexy1_plotkey.csv")
 
-load("data-raw/sexy1/biomass/2025_emma_fallbiomass.rda")
+#--pulled from emma's pkg on 4 aug 2026
+load("data-raw/sexy1/biomass/cc_biomass.rda")
 
 #--field_id
 #--sea_name
@@ -18,7 +19,7 @@ load("data-raw/sexy1/biomass/2025_emma_fallbiomass.rda")
 #--plot
 #--trt_name
 
-# 1. 2025 biomass, not broken down by category, needs a lot of wrangling ----------------------------------------------------------
+# 1. 2025 fall biomass samplings ----------------------------------------------------------
 
 d1 <-
   cc_biomass |>
@@ -40,30 +41,51 @@ d3 <-
          sampledate_ymd = sample_date,
          subsample_id,
          samplearea_m2,
+         species_short,
          biomass_g = wholeplant_g,
-         weed_pres) #--I'm not sure what weed_pres is...but they are all 'y'
+         weed_pres) #--I'm not sure what weed_pres is
 
 #--take the minimum date at every sampling point
-#STOPPED
+d4 <-
+  d3 |>
+  group_by(sampledate_id) |>
+  mutate(sampledate_ymd2 = min(sampledate_ymd))
 
-d3 <-
-  d2 |>
+
+d5 <-
+  d4 |>
   select(field_id, sea_name, trt_name, block, plot,
-         sampledate_id, #--some samplings were spread over two days, Emma is very precise
-         sampledate_ymd = sample_date,
+         sampledate_ymd2,
          subsample_id,
          samplearea_m2,
+         biomass_cat = species_short,
          biomass_g,
          weed_pres)
 
+#--if biomass_cat is na, make it 'all'
+d6 <-
+  d5 |>
+  mutate(biomass_cat = ifelse(is.na(biomass_cat), "all", biomass_cat))
+
+#--change to biomass_kgha
+d7 <-
+  d6 |>
+  group_by(field_id, sea_name, trt_name, block, plot, sampledate_ymd2, biomass_cat) |>
+  summarise(samplearea_m2 = mean(samplearea_m2, na.rm = T),
+            biomass_g = mean(biomass_g, na.rm = T)) |>
+  mutate(biomass_kgha = (biomass_g / 1000) / (samplearea_m2 /10000)) |>
+  select(-samplearea_m2, -biomass_g)
+
+#--arrange it, does it make sense?
+d7 |>
+  arrange(trt_name, block, plot, sampledate_ymd2, biomass_cat)
 
 # write it ----------------------------------------------------------------
 
-sexy1_grain <-  d2
+sexy1_fallbio <-  d7
 
+usethis::use_data(sexy1_fallbio, overwrite = TRUE)
 
-usethis::use_data(sexy1_grain, overwrite = TRUE)
-
-sexy1_grain %>%
-  write_csv("inst/extdata/sexy1_grain.csv")
+sexy1_fallbio %>%
+  write_csv("inst/extdata/sexy1_fallbio.csv")
 
