@@ -16,15 +16,27 @@ rm(list = ls())
 # 1. raw data -------------------------------------------------------------
 
 #--this is created by 00_randomly assign plots to treatments
-#--clim1, handmade, make sure to read in the most up-to-date one
 d1 <-
-  read_excel("data-raw/clim1/keys/2026fa_plot-key.xlsx")
+  read_csv("data-raw/clim1/00_keys/clim1-plot-trt-assignments.csv")
 
+#--trt_names assigned to trt_nu
+#--make sure to read in the most recent one!!
+d2 <-
+  read_excel("data-raw/clim1/00_keys/running-treatment-key.xlsx", skip = 5) |>
+  select(trt_nu, trt_name) |>
+  add_row(trt_nu = 0, trt_name = "PRACTICE")
+
+
+# combine -----------------------------------------------------------------
+
+d3 <-
+  d1  |>
+  left_join(d2)
 
 # done --------------------------------------------------------------------
 
 clim1_plotkey <-
-  d1 |>
+  d3 |>
   arrange(plot) |>
   mutate(plot = as.character(plot))
 

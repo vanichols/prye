@@ -1,18 +1,52 @@
-field_id,trt_nu,trt_name,trt_desc,pcr_planting,crop_names,pcr_row_width_cm,nitrogen_kgha,pcr_target_seedrate_m2,notes,notes2
-clim1,1,26s_p,Perennial cereal rye (P); planted spring 2026; 12.5 cm rows; 80 kg of nitrogen at planting + 20 kg nitrogen after harvest; summer forage harvest,spring,p,12.5,80+20,300,"Rephil perennial rye, 80 kg at planting, another 20 kg after forage harvest",NA
-clim1,2,26s_pleg1,"Perennial cereal rye (P) and Trifolium resupinatum (annual Persian clover cv. Pasat, leg1); planted spring 2026; 12.5 cm rows with leg1 in between; 80 kg of nitrogen at planting; summer forage harvest",spring,p; leg1,12.5,80,300,"An annual legume (Persian clover) planted between the narrow rows, will not grow much in spring and summer, but will grow in the fall",Seeding rate is reduced by 20% to account for the interplanted crops? Birte says no
-clim1,3,26s_pleg2wide,"Perennial cereal rye (P) and Medicago lupulina (perennial Black medic cv. Virgo pajbjerg, leg2); planted spring 2026; 25 cm rows with leg2 in between; 80 kg of nitrogen at planting; summer forage harvest",spring,p; leg2,25,80,300,A perennial legume (Medicago lupulina) planted in its own rows,NA
-clim1,4,26s_pbuck,Perennial cereal rye (P) and buckwheat (cv Lileja); planted spring 2026; 12.5 cm rows with buck in between; 80 kg of nitrogen at planting; summer forage harvest,spring,p; buckwheat,12.5,80+20,300,"Buckwheat planted between the narrow rows, will grow early in season, no growth in the fall, 20 kg N applied after forage harvest",Allows for narrow rows going into first grain production year
-clim1,5,26s_pbuckwide,Perennial cereal rye (P) and buckwheat (cv Lileja); planted spring 2026; 25 cm rows with buck in between; 80 kg of nitrogen at planting; summer forage harvest,spring,p; buckwheat,25,80+20,300,"Buckwheat planted every other row, 20 kg N applied after forage harvest","Rephil will be in wide rows going into the fall/next year grain production, can compare to fall planted P_wide"
-clim1,6,26s_w,Perennial wheat (W) from The Land Institute; planted spring 2026; 12.5 cm rows; 80 kg of nitrogen at planting; grain harvest in 2026,spring,w,12.5,80,no idea,"Perennial wheat from The Land Institute in Kansas USA, may not do very well, but can test it an turn it into a practice plot if it fails",NA
-clim1,7,26f_p,Perennial cereal rye (P); planted fall 2026; 12.5 cm rows; ?? nitrogen,fall,p,12.5,80,300,Rephil perennial rye,Planted late to allow for weed control
-clim1,8,26f_p0,Perennial cereal rye (P); planted fall 2026; 12.5 cm rows; no nitrogen,fall,p,12.5,0,300,No nitrogen (apparently it is how Aurion farmers do it),NA
-clim1,9,26f_pwide,Perennial cereal rye (P); planted fall 2026; 25 cm rows; ?? nitrogen,fall,p,12.5,80,300,"Perennial rye, wide rows to allow for interrow cultivation during second year",NA
-clim1,10,26f_p0wide,Perennial cereal rye (P); planted fall 2026; 25 cm rows; no nitrogen,fall,p,25,0,300,"Perennial rye, wide rows with no nitrogen",NA
-clim1,11,26f_apmix,Perennial cereal rye (P) and Dukato population rye (A) mixed together before planting; planted fall 2026; 12.5 cm rows; ?? nitrogen,fall,p; a,12.5,80,300,A mixture of Dukato and Rephil,NA
-clim1,12,26f_apmixwide,Perennial cereal rye (P) and Dukato population rye (A) mixed together before planting; planted fall 2026; 25 cm rows; ?? nitrogen,fall,p; a,25,80,300,Dukato/Rephil planted in wide rows,NA
-clim1,13,26f_aprowwide,Perennial cereal rye (P) and Dukato population rye (A) in alternating rows; planted fall 2026; 25 cm rows with A in between; ?? nitrogen,fall,p; a,25,80,300,Alternating rows of Dukato and Rephil planted at 12.5 cm widths,NA
-clim1,14,26f_a,Dukato population rye (A); planted fall 2026; 12.5 cm rows; ?? nitrogen,fall,a,12.5,80,300,"Dukato, DLG winter rye high yield organic check",NA
-clim1,15,26f_awide,Dukato population rye (A); planted fall 2026; 25 cm rows; ?? nitrogen,fall,a,25,80,300,"Dukato, DLG winter rye high yield organic check to compare to the APmix_wide",NA
-clim1,16,26f_borris,Borris a popular; planted fall 2026; 12.5 cm rows; no nitrogen,fall,borris,12.5,0,300,An Aurion 0N check,NA
-clim1,17,26f_reimontra,Dukato population rye (A); planted fall 2026; 25 cm rows; ?? nitrogen,fall,reimontra,12.5,80,300,"A tetraploid, would be interesting to include?",NA
+field_id,sea_name,trt_nu,trt_name,crop_name,trt_desc
+clim1,26/27,1,26s_p,p,Perennial cereal rye (P); planted spring 2026; 12.5 cm rows; 80 kg of nitrogen at planting + 20 kg nitrogen after harvest; summer forage harvest
+clim1,26/27,2,26s_pleg1,p; leg1,"Perennial cereal rye (P) and Trifolium resupinatum (annual Persian clover cv. Pasat, leg1); planted spring 2026; 12.5 cm rows with leg1 in between; 80 kg of nitrogen at planting; summer forage harvest"
+clim1,26/27,3,26s_pleg2wide,p; leg2,"Perennial cereal rye (P) and Medicago lupulina (perennial Black medic cv. Virgo pajbjerg, leg2); planted spring 2026; 25 cm rows with leg2 in between; 80 kg of nitrogen at planting; summer forage harvest"
+clim1,26/27,4,26s_pbuck,p; buck,Perennial cereal rye (P) and buckwheat (cv Lileja); planted spring 2026; 12.5 cm rows with buck in between; 80 kg of nitrogen at planting; summer forage harvest
+clim1,26/27,5,26s_pbuckwide,p; buck,Perennial cereal rye (P) and buckwheat (cv Lileja); planted spring 2026; 25 cm rows with buck in between; 80 kg of nitrogen at planting; summer forage harvest
+clim1,26/27,6,26s_w,w,Perennial wheat (W) from The Land Institute; planted spring 2026; 12.5 cm rows; 80 kg of nitrogen at planting; grain harvest in 2026
+clim1,26/27,7,26f_p,p,Perennial cereal rye (P); planted fall 2026; 12.5 cm rows; ?? nitrogen
+clim1,26/27,8,26f_p0,p,Perennial cereal rye (P); planted fall 2026; 12.5 cm rows; no nitrogen
+clim1,26/27,9,26f_pwide,p,Perennial cereal rye (P); planted fall 2026; 25 cm rows; ?? nitrogen
+clim1,26/27,10,26f_p0wide,p,Perennial cereal rye (P); planted fall 2026; 25 cm rows; no nitrogen
+clim1,26/27,11,26f_apmix,a; p,Perennial cereal rye (P) and Dukato population rye (A) mixed together before planting; planted fall 2026; 12.5 cm rows; ?? nitrogen
+clim1,26/27,12,26f_apmixwide,a; p,Perennial cereal rye (P) and Dukato population rye (A) mixed together before planting; planted fall 2026; 25 cm rows; ?? nitrogen
+clim1,26/27,13,26f_aprowwide,a; p,Perennial cereal rye (P) and Dukato population rye (A) in alternating rows; planted fall 2026; 25 cm rows with A in between; ?? nitrogen
+clim1,26/27,14,26f_a,a,Dukato population rye (A); planted fall 2026; 12.5 cm rows; ?? nitrogen
+clim1,26/27,15,26f_awide,a,Dukato population rye (A); planted fall 2026; 25 cm rows; ?? nitrogen
+clim1,26/27,16,26f_borris,borris,Borris a popular; planted fall 2026; 12.5 cm rows; no nitrogen
+clim1,26/27,17,26f_reimontra,reimontra,Dukato population rye (A); planted fall 2026; 25 cm rows; ?? nitrogen
+clim1,26/27,18,26f_p0leg2,p; leg2,"Perennial cereal rye (P) and Medicago lupulina (perennial Black medic cv. Virgo pajbjerg, leg2); planted fall 2026; 25 cm rows with leg2 in between; no nitrogen"
+NA,NA,19,NA,NA,NA
+NA,NA,20,NA,NA,NA
+NA,NA,21,NA,NA,NA
+NA,NA,22,NA,NA,NA
+NA,NA,23,NA,NA,NA
+NA,NA,24,NA,NA,NA
+NA,NA,25,NA,NA,NA
+NA,NA,26,NA,NA,NA
+NA,NA,27,NA,NA,NA
+NA,NA,28,NA,NA,NA
+NA,NA,29,NA,NA,NA
+NA,NA,30,NA,NA,NA
+NA,NA,31,NA,NA,NA
+NA,NA,32,NA,NA,NA
+NA,NA,33,NA,NA,NA
+NA,NA,34,NA,NA,NA
+NA,NA,35,NA,NA,NA
+NA,NA,36,NA,NA,NA
+NA,NA,37,NA,NA,NA
+NA,NA,38,NA,NA,NA
+NA,NA,39,NA,NA,NA
+NA,NA,40,NA,NA,NA
+NA,NA,41,NA,NA,NA
+NA,NA,42,NA,NA,NA
+NA,NA,43,NA,NA,NA
+NA,NA,44,NA,NA,NA
+NA,NA,45,NA,NA,NA
+NA,NA,46,NA,NA,NA
+NA,NA,47,NA,NA,NA
+NA,NA,48,NA,NA,NA
+NA,NA,49,NA,NA,NA
+NA,NA,50,NA,NA,NA
+NA,NA,51,NA,NA,NA
