@@ -38,7 +38,6 @@ d2 <-
 
 sexy1_grain <-  d2
 
-
 usethis::use_data(sexy1_grain, overwrite = TRUE)
 
 sexy1_grain %>%

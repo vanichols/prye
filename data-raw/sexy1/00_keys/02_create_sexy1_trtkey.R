@@ -1,6 +1,6 @@
 # purpose:    have more info connected to trt_name
 # created:    july 2026
-
+# notes:      includes sexy1 sea_name 24/25, 25/26 and sea_name 26/27
 #--want something simple
 # trt_id: sexy1_24/25_p etc
 # trt_name: p
@@ -27,53 +27,61 @@ d0 <-
   filter(!is.na(trt_name)) |>
   distinct()
 
-#--make a trt_id for the first year
-d1 <-
+#--sexy1 - 24/25
+d1a <-
   d0 |>
   mutate(
     field_id = "sexy1",
-    sea_name = "24/25",
-    trt_id = paste(field_id, sea_name, trt_name, sep = "_"))
+    sea_name = "24/25")
+
+d1b <-
+  tibble(trt_name = "oats",
+         field_id = "sexy1",
+         sea_name = "25/26")
+
+#--sexy1 - 24/25
+d1c <-
+  d0 |>
+  mutate(
+    field_id = "sexy1",
+    sea_name = "26/27")
+
+d1 <-
+  d1a |>
+  bind_rows(d1b) |>
+  bind_rows(d1c)
+
 
 # 2. add trt_desc -------------------------------------------------------
 
 d2 <-
   d1 |>
   mutate(trt_desc = case_when(
-    trt_name == "p" ~ "Perennial cereal rye (P), planted fall 2024, 12.5 cm rows, no post-harvest cover crop, herbicides",
-    trt_name == "xp" ~ "Perennial cereal rye (P), planted fall 2024, 12.5 cm rows, no post-harvest cover crop, no herbicides",
-    trt_name == "pcc" ~ "Perennial cereal rye (P), planted fall 2024, 12.5 cm rows, post-harvest cover crop mix, herbicides",
-    trt_name == "xpcc" ~ "Perennial cereal rye (P), planted fall 2024, 12.5 cm rows, post-harvest cover crop mix, no herbicides",
+    trt_name == "p" ~ "Perennial cereal rye (P), planted in fall, 12.5 cm rows, no post-harvest cover crop, herbicides",
+    trt_name == "xp" ~ "Perennial cereal rye (P), planted in fall, 12.5 cm rows, no post-harvest cover crop, no herbicides",
+    trt_name == "pcc" ~ "Perennial cereal rye (P), planted in fall, 12.5 cm rows, post-harvest cover crop mix, herbicides",
+    trt_name == "xpcc" ~ "Perennial cereal rye (P), planted in fall, 12.5 cm rows, post-harvest cover crop mix, no herbicides",
 
-    trt_name == "a" ~ "Annual cereal rye hybrid (A), planted fall 2024, 12.5 cm rows, no post-harvest cover crop, herbicides",
-    trt_name == "xa" ~ "Annual cereal rye hybrid (A), planted fall 2024, 12.5 cm rows, no post-harvest cover crop, no herbicides",
-    trt_name == "acc" ~ "Annual cereal rye hybrid (A), planted fall 2024, 12.5 cm rows, post-harvest cover crop mix, herbicides",
-    trt_name == "xacc" ~ "Annual cereal rye hybrid (A), planted fall 2024, 12.5 cm rows, post-harvest cover crop mix, no herbicides",
+    trt_name == "a" ~ "Annual cereal rye hybrid (A), planted in fall, 12.5 cm rows, no post-harvest cover crop, herbicides",
+    trt_name == "xa" ~ "Annual cereal rye hybrid (A), planted in fall, 12.5 cm rows, no post-harvest cover crop, no herbicides",
+    trt_name == "acc" ~ "Annual cereal rye hybrid (A), planted in fall, 12.5 cm rows, post-harvest cover crop mix, herbicides",
+    trt_name == "xacc" ~ "Annual cereal rye hybrid (A), planted in fall, 12.5 cm rows, post-harvest cover crop mix, no herbicides",
 
-    trt_name == "aprows" ~ "Annual cereal rye hybrid (A) and perennial cereal rye (P) mix, planted fall 2024, alternating 12.5 cm rows, no post-harvest cover crop, herbicides",
-    trt_name == "xaprows" ~ "Annual cereal rye hybrid (A) and perennial cereal rye (P) mix, planted fall 2024, alternating 12.5 cm rows, no post-harvest cover crop, no herbicides",
-    trt_name == "apmix" ~ "Annual cereal rye hybrid (A) and perennial cereal rye (P) mix, planted fall 2024, mixed 12.5 cm rows, no post-harvest cover crop, herbicides",
-    trt_name == "xapmix" ~ "Annual cereal rye hybrid (A) and perennial cereal rye (P) mix, planted fall 2024, mixed 12.5 cm rows, no post-harvest cover crop, no herbicides")
-    )
+    trt_name == "aprows" ~ "Annual cereal rye hybrid (A) and perennial cereal rye (P) mix, planted in fall, alternating 12.5 cm rows, no post-harvest cover crop, herbicides",
+    trt_name == "xaprows" ~ "Annual cereal rye hybrid (A) and perennial cereal rye (P) mix, planted in fall, alternating 12.5 cm rows, no post-harvest cover crop, no herbicides",
+    trt_name == "apmix" ~ "Annual cereal rye hybrid (A) and perennial cereal rye (P) mix, planted in fall, mixed 12.5 cm rows, no post-harvest cover crop, herbicides",
+    trt_name == "xapmix" ~ "Annual cereal rye hybrid (A) and perennial cereal rye (P) mix, planted in fall, mixed 12.5 cm rows, no post-harvest cover crop, no herbicides",
 
+    trt_name == "oats" ~ "Oats as reset crop, planted in spring, 12.5 cm rows, no post-harvest cover crop, herbicides")
+)
 
-# 3. add a trt_nice for fig labels ----------------------------------------
-
-d3 <-
-  d2 |>
-  mutate(trt_nice = case_when(
-  trt_name %in% c("a", "acc", "xa", "xacc") ~ "Annual",
-  trt_name %in% c("p", "pcc", "xp", "xpcc") ~ "Perennial",
-  trt_name %in% c("apmix", "xapmix") ~ "Annual/Perennial Mix",
-  trt_name %in% c("aprows", "xaprows") ~ "Annual/Perennial Mix",
-))
 
 # done --------------------------------------------------------------------
 
 sexy1_trtkey <-
-  d3 |>
+  d2 |>
   select(field_id, sea_name, everything()) |>
-  arrange(trt_name)
+  arrange(sea_name, trt_name)
 
 usethis::use_data(sexy1_trtkey, overwrite = TRUE)
 
