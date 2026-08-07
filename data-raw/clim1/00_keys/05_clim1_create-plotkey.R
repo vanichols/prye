@@ -10,6 +10,7 @@
 
 library(readxl)
 library(tidyverse)
+library(openxlsx2)
 
 rm(list = ls())
 
@@ -44,3 +45,6 @@ usethis::use_data(clim1_plotkey, overwrite = TRUE)
 
 clim1_plotkey %>%
   write_csv("inst/extdata/clim1_plotkey.csv")
+
+clim1_plotkey %>%
+  write_xlsx("inst/extdata/EXCELclim1_plotkey.xlsx")
