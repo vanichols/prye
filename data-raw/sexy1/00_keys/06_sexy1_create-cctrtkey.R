@@ -1,3 +1,5 @@
+#----this is a mess and should be ignored for now....
+
 #--manually created a cctrtkey
 #--need to know cover crop planting details...
 #--haven't fixed yet to match other keys...
@@ -36,14 +38,14 @@ d3 <-
 
 
 # make data ---------------------------------------------------------------
-
-op_cctrtkey <-
-  d3 |>
-  select(env_id, cctrt_id, everything())
-
-usethis::use_data(op_cctrtkey, overwrite = TRUE)
-
-# make available ----------------------------------------------------------
-
-op_cctrtkey |>
-  write_csv("inst/extdata/op_cctrtkey.csv")
+#
+# op_cctrtkey <-
+#   d3 |>
+#   select(env_id, cctrt_id, everything())
+#
+# usethis::use_data(op_cctrtkey, overwrite = TRUE)
+#
+# # make available ----------------------------------------------------------
+#
+# op_cctrtkey |>
+#   write_csv("inst/extdata/op_cctrtkey.csv")

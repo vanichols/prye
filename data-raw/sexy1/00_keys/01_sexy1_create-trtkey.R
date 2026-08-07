@@ -1,14 +1,13 @@
 # purpose:    have more info connected to trt_name
 # created:    july 2026
-# notes:      includes sexy1 sea_name 24/25, 25/26 and sea_name 26/27
+# notes:      includes sexy1 sea_name 24/25, 25/26 and 26/27
+
 #--want something simple
 # trt_id: sexy1_24/25_p etc
 # trt_name: p
-# trt_nice: Perennial rye
-# trt_niceshort: A/P mix, (P)+, (Pcc)+ etc. ??
 # trt_desc: Perennial cereal rye...
+# crop_name: p, a (crop abbreviations separated by commas, these are described in sexy1_cropkey)
 #
-
 #--free form description, but using commas with crop, planting season, relevant treatment descriptions
 
 library(readxl)
@@ -76,11 +75,26 @@ d2 <-
 )
 
 
+# 3. add crop_name ----------------------------------------------------------
+
+#--multiple crops are separated by commas
+
+d3 <-
+  d2 |>
+  mutate(
+    crop_name = case_when(
+      trt_name %in% c("p", "xp", "pcc", "xpcc") ~ "p",
+      trt_name %in% c("a", "xa", "acc", "xacc") ~ "a",
+      trt_name %in% c("aprows", "xaprows", "apmix", "xapmix") ~ "a, p",
+      trt_name == "oats" ~ "oats"
+    )
+  )
+
 # done --------------------------------------------------------------------
 
 sexy1_trtkey <-
-  d2 |>
-  select(field_id, sea_name, everything()) |>
+  d3 |>
+  select(field_id, sea_name, trt_name, crop_name, everything()) |>
   arrange(sea_name, trt_name)
 
 usethis::use_data(sexy1_trtkey, overwrite = TRUE)
