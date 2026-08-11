@@ -88,8 +88,21 @@ a6 <-
   ))
 
 
+
+# 3. add a days since harvest column --------------------------------------
+
+#--perennial harvested on 8/14, annual on 8/8
+#--I need the trts to do that
+#--for now assign it as the later date
+a7 <-
+  a6 |>
+  mutate(harvest_ymd = as_date("2025-08-14"),
+       days_after_harvest = sampledate_ymd - harvest_ymd,
+       dah = as.numeric(days_after_harvest)) |>
+  select(field_id, sea_name, sampledate_ymd, days_after_harvest, dah, everything())
+
 # 3. write ----------------------------------------------------------------
 
-sexy1_swnitrate <- a6
+sexy1_swnitrate <- a7
 
 usethis::use_data(sexy1_swnitrate, overwrite = TRUE)
