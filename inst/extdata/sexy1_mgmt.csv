@@ -1,6 +1,6 @@
-loc_name,sea_name,field_activity,treatments,date_dmy,date_ymd
-sexy1,24/25,fall planting,annuals,2024-10-17T00:00:00Z,2024-10-17
-sexy1,24/25,fall planting,perennial and mixes,2024-10-18T00:00:00Z,2024-10-18
-sexy1,24/25,grain harvest,annuals,2025-08-08T00:00:00Z,2025-08-08
-sexy1,24/25,grain harvest,perennial and mixes,2025-08-14T00:00:00Z,2025-08-14
-sexy1,24/25,cover crop planting,all,2025-08-19T00:00:00Z,2025-08-19
+loc_name,sea_name,field_activity,treatments,date_ymd
+sexy1,24/25,fall planting,annuals,2024-10-17
+sexy1,24/25,fall planting,perennial and mixes,2024-10-18
+sexy1,24/25,grain harvest,annuals,2025-08-08
+sexy1,24/25,grain harvest,perennial and mixes,2025-08-14
+sexy1,24/25,cover crop planting,all,2025-08-19

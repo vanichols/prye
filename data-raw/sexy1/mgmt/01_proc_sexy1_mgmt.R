@@ -19,7 +19,8 @@ d1 <-
   d |>
   fill(loc_name, sea_name) |>
   janitor::clean_names() |>
-  mutate(date_ymd = ymd(date_dmy))
+  mutate(date_ymd = ymd(date_dmy)) |>
+  select(-date_dmy)
 
 # write it ----------------------------------------------------------------
 
