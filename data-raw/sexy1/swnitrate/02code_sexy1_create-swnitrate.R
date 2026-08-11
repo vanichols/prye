@@ -10,12 +10,12 @@ library(readr)
 
 # 0. data from cecilie -----------------------------------------------------------------
 
-a0 <- read_csv("data-raw/sexy1/sw_nitrate/tidy_analyzerid-key.csv")
+a0 <- read_csv("data-raw/sexy1/swnitrate/tidy_analyzerid-key.csv")
 
 # 1. data from 01code_proc-raw... -----------------------------------------------------------------
 
 a1a <-
-  read_csv("data-raw/sexy1/sw_nitrate/tidy_raw-data.csv")
+  read_csv("data-raw/sexy1/swnitrate/tidy_raw-data.csv")
 
 #--fix analyzerIDs (if needed)
 a1a |>

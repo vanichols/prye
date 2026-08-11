@@ -35,7 +35,7 @@ ReadSWNitrateFiles <- function(f = filename){
 # 1. use the function on the list of files -----------------------------------
 
 # Path to folder of first dump
-folder_path <- "data-raw/sexy1/sw_nitrate/sexy1-raw/"
+folder_path <- "data-raw/sexy1/swnitrate/sexy1-raw/"
 
 # Get all csv files in the folder
 files <- list.files(
@@ -58,4 +58,4 @@ a2 <-
 # 3. write intermediate file ----------------------------------------------
 
 a2 |>
-  write_csv("data-raw/sexy1/sw_nitrate/tidy_raw-data.csv")
+  write_csv("data-raw/sexy1/swnitrate/tidy_raw-data.csv")
