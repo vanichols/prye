@@ -71,15 +71,13 @@ d <-
 # check it ----------------------------------------------------------------
 
 d2 <-
-  d |>
-  filter(YEAR != 2024) |>  #--there is something weird here in the precip data
-  filter(DOY < 366) #--leap years
+  d #|>
+  #filter(YEAR != 2024) |>  #--there is something weird here in the precip data
+  #filter(DOY < 366) #--leap years
 
 # write ----------------------------------------------------------------
 
-flak_wea <- d2
+flak_wea_nasa <- d2
 
-flak_wea |>
-  write_csv("inst/extdata/flak_wea.csv")
-
-usethis::use_data(flak_wea, overwrite = TRUE)
+flak_wea_nasa |>
+  write_csv("data-raw/00_weather/flak_wea_nasa.csv")
