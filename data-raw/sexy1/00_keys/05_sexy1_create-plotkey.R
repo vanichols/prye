@@ -21,7 +21,7 @@ rm(list = ls())
 
 #--handmade
 d1a <-
-  read_excel("data-raw/sexy1/01_keys/sexy1-2024_eukey.xlsx", skip = 5) |>
+  read_excel("data-raw/sexy1/00_keys/sexy1-2024_eukey.xlsx", skip = 5) |>
   select(
     block,
     plot,
@@ -48,9 +48,18 @@ d1 <- d1c
 # 2. sexy1 26/27 -------------------------------------------------------------
 
 #--made in 00code_sex1_randomly-assign...
+#--10 sept - updating to replace the mixes with half nitrogen trts
 d2a <-
-  read_csv("data-raw/sexy1/01_keys/sexy1-2026-plot-assignments.csv") |>
-  mutate(plot = as.character(plot))
+  read_csv("data-raw/sexy1/00_keys/sexy1-2026-plot-assignments.csv") |>
+  mutate(plot = as.character(plot)) |>
+  mutate(trt_name = case_when(
+    trt_name == "xaprows" ~ "p1/2",
+    trt_name == "aprows" ~ "pcc1/2",
+    trt_name == "xapmix" ~ "a1/2",
+    trt_name == "apmix" ~ "acc1/2",
+    TRUE ~ trt_name
+  ))
+
 
 #--final
 d2 <- d2a

@@ -53,6 +53,7 @@ a1 |>
   unique()
 
 #--not finalized--------updated 7 aug 2026 - we might get some more perennial wheat
+#--somewhat finalized---updated 14 sept, received wsu seed and anticipate getting hungarian and borris seed
 
 a2a <-
   a1 |>
@@ -64,7 +65,7 @@ a2a <-
     trt_name == "26s_pleg2wide" ~ "Perennial cereal rye (P) and Medicago lupulina (perennial Black medic cv. Virgo pajbjerg, leg2); planted spring 2026; 25 cm rows with leg2 in between; 80 kg of nitrogen at planting; summer forage harvest",
     trt_name == "26s_pbuck" ~ "Perennial cereal rye (P) and buckwheat (cv Lileja); planted spring 2026; 12.5 cm rows with buck in between; 80 kg of nitrogen at planting; summer forage harvest",
     trt_name == "26s_pbuckwide" ~ "Perennial cereal rye (P) and buckwheat (cv Lileja); planted spring 2026; 25 cm rows with buck in between; 80 kg of nitrogen at planting; summer forage harvest",
-    trt_name == "26s_w" ~ "Perennial wheat (W) from The Land Institute; planted spring 2026; 12.5 cm rows; 80 kg of nitrogen at planting; grain harvest in 2026",
+    trt_name == "26s_pw1" ~ "Perennial spring wheat (W) from The Land Institute; planted spring 2026; 12.5 cm rows; 80 kg of nitrogen at planting; grain harvest in 2026",
 
     #//2026 fall planting (still TBD)
     trt_name == "26f_p" ~ "Perennial cereal rye (P); planted fall 2026; 12.5 cm rows; ?? nitrogen",
@@ -74,16 +75,19 @@ a2a <-
 
     trt_name == "26f_apmix" ~ "Perennial cereal rye (P) and Dukato population rye (A) mixed together before planting; planted fall 2026; 12.5 cm rows; ?? nitrogen",
     trt_name == "26f_apmixwide" ~ "Perennial cereal rye (P) and Dukato population rye (A) mixed together before planting; planted fall 2026; 25 cm rows; ?? nitrogen",
-    trt_name == "26f_aprowwide" ~ "Perennial cereal rye (P) and Dukato population rye (A) in alternating rows; planted fall 2026; 25 cm rows with A in between; ?? nitrogen",
+    trt_name == "26f_aprow" ~ "Perennial cereal rye (P) and Dukato population rye (A) in alternating rows; planted fall 2026; 25 cm rows with A in between; ?? nitrogen",
 
     trt_name == "26f_a" ~ "Dukato population rye (A); planted fall 2026; 12.5 cm rows; ?? nitrogen",
     trt_name == "26f_awide" ~ "Dukato population rye (A); planted fall 2026; 25 cm rows; ?? nitrogen",
 
     trt_name == "26f_borris" ~ "Borris a popular; planted fall 2026; 12.5 cm rows; no nitrogen",
-    trt_name == "26f_reimontra" ~ "Dukato population rye (A); planted fall 2026; 25 cm rows; ?? nitrogen",
+    trt_name == "26f_hungarian" ~ "Dukato population rye (A); planted fall 2026; 25 cm rows; ?? nitrogen",
 
-    #--this one is tentative
+    #--intercroppings
     trt_name == "26f_p0leg2" ~ "Perennial cereal rye (P) and Medicago lupulina (perennial Black medic cv. Virgo pajbjerg, leg2); planted fall 2026; 25 cm rows with leg2 in between; no nitrogen",
+    trt_name == "26f_p0leg3" ~ "Perennial cereal rye (P) and a spring-planted annual legume (TBD); planted fall 2026; 12.5 cm rows with leg3 in between; no nitrogen",
+
+    trt_name == "26f_pw2" ~ "Perennial winter wheat (WW) from Washington State University; planted fall 2026; 12.5 cm rows; 80 kg of nitrogen",
 
     TRUE ~ "OOPS SOMETHING IS WRONG"
   ))
@@ -111,7 +115,7 @@ a3 <-
     trt_name == "26s_pleg2wide" ~ "p; leg2",
     trt_name == "26s_pbuck" ~ "p; buck",
     trt_name == "26s_pbuckwide" ~ "p; buck",
-    trt_name == "26s_w" ~ "w",
+    trt_name == "26s_pw1" ~ "w",
 
     #//2026 fall planting (still TBD)
     trt_name == "26f_p" ~ "p",
@@ -121,14 +125,20 @@ a3 <-
 
     trt_name == "26f_apmix" ~ "a; p",
     trt_name == "26f_apmixwide" ~ "a; p",
-    trt_name == "26f_aprowwide" ~ "a; p",
+    trt_name == "26f_aprow" ~ "a; p",
 
     trt_name == "26f_a" ~ "a",
     trt_name == "26f_awide" ~ "a",
 
+    trt_name == "26f_a0" ~ "a",
+    trt_name == "26f_a0wide" ~ "a",
+
     trt_name == "26f_borris" ~ "borris",
-    trt_name == "26f_reimontra" ~ "reimontra",
+    trt_name == "26f_hungarian" ~ "hungarian",
     trt_name == "26f_p0leg2" ~ "p; leg2",
+    trt_name == "26f_p0leg3" ~ "p; leg3",
+
+    trt_name == "26f_pw2" ~ "ww",
 
     TRUE ~ "OOPS SOMETHING IS WRONG"
   ))

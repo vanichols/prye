@@ -1,4 +1,5 @@
 #--last updated 28 jul 2026
+#--last updated 14 sept 2026
 
 
 #--simple (see meta_plotkey for descriptions):
@@ -16,7 +17,7 @@ rm(list = ls())
 
 # 1. raw data -------------------------------------------------------------
 
-#--this is created by 00_randomly assign plots to treatments
+#--this is created by 99_randomly-assign-trts assign plots to treatments - DO NOT RUN AGAIN
 d1 <-
   read_csv("data-raw/clim1/00_keys/clim1-plot-trt-assignments.csv")
 
@@ -47,4 +48,10 @@ clim1_plotkey %>%
   write_csv("inst/extdata/clim1_plotkey.csv")
 
 clim1_plotkey %>%
+  write_csv("data-raw/clim1/00_keys/clim1_plotkey.csv")
+
+clim1_plotkey %>%
   write_xlsx("inst/extdata/EXCELclim1_plotkey.xlsx")
+
+clim1_plotkey %>%
+  write_xlsx("data-raw/clim1/00_keys/EXCELclim1_plotkey.xlsx")

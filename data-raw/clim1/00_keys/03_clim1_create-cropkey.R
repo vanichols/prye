@@ -36,15 +36,17 @@ d2 <-
 
     sea_name == "26/27" & crop_name == "buck" ~ "Fagopyrum esculentum (buckwheat cv. Lileja)",
 
-    sea_name == "26/27" & crop_name == "w" ~ "Perennial wheat (Triticum spp. x Thinopyrum spp.) from The Land Institute B1107E produced 2025",
+    sea_name == "26/27" & crop_name == "w" ~ "Perennial spring wheat (Triticum spp. x Thinopyrum spp.) from The Land Institute B1107E produced 2025",
+    sea_name == "26/27" & crop_name == "ww" ~ "Perennial winter wheat (Triticum spp. x Thinopyrum spp.) from Washington State University CS14PHR21 produced ??",
 
     sea_name == "26/27" & crop_name == "a" ~ "Dukato population rye ordered from DLG (organic seed)",
 
     sea_name == "26/27" & crop_name == "borris" ~ "A landrace rye offered by Landsorten - Claus emailed Bjarne about getting seed",
-    sea_name == "26/27" & crop_name == "reimontra" ~ "Claus obtained seed from “Revierberatung Wolmersdorf”
-https://www.saatgut-shop.de/product_info.php?info=p208_roggen---waldstaudenroggen-reimonta---secale-multicaule----1-kg.html
- in 2026, likely a tetraploid but we are unsure",
+    #sea_name == "26/27" & crop_name == "reimontra" ~ "Claus obtained seed from “Revierberatung Wolmersdorf”
+#https://www.saatgut-shop.de/product_info.php?info=p208_roggen---waldstaudenroggen-reimonta---secale-multicaule----1-kg.html
+# in 2026, likely a tetraploid but we are unsure",
 
+    sea_name == "26/27" & crop_name == "hungarian" ~ "Claus obtained seed from somewhere online (see the order form in the docs folder)",
     TRUE ~ "XXXXX"
   ))
 
