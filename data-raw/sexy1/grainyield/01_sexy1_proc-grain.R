@@ -1,6 +1,6 @@
 # created           july 2026
 # purpose:          get all grain yields in one place for sexy1
-# last updated:
+# last updated:     nov 2026, reran and updated file name
 
 library(tidyverse)
 
@@ -10,7 +10,7 @@ rm(list = ls())
 sexy1_plotkey <-
   read_csv("inst/extdata/sexy1_plotkey.csv")
 
-load("data-raw/sexy1/grain/op_yields.rda")
+load("data-raw/sexy1/grainyield/op_yields.rda")
 
 #--field_id
 #--sea_name
