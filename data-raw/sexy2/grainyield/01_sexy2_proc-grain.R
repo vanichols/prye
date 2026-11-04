@@ -43,10 +43,16 @@ d2 <-
   pivot_longer(grain_Mgha:straw_Mgha) |>
   rename(data_type = name)
 
+d3 <-
+  d2 |>
+  mutate_if(is.factor, as.character) |>
+  mutate(block = str_to_upper(block),
+         plot = as.numeric(plot))
+
 
 # write it ----------------------------------------------------------------
 
-sexy2_grain <-  d2
+sexy2_grain <-  d3
 
 usethis::use_data(sexy2_grain, overwrite = TRUE)
 
