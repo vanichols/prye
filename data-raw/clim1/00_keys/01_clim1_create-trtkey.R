@@ -14,6 +14,7 @@
 
 library(readxl)
 library(tidyverse)
+library(writexl)
 
 rm(list = ls())
 
@@ -78,7 +79,9 @@ a2a <-
     trt_name == "26f_aprow" ~ "Perennial cereal rye (P) and Dukato population rye (A) in alternating rows; planted fall 2026; 25 cm rows with A in between; ?? nitrogen",
 
     trt_name == "26f_a" ~ "Dukato population rye (A); planted fall 2026; 12.5 cm rows; ?? nitrogen",
+    trt_name == "26f_a" ~ "Dukato population rye (A); planted fall 2026; 12.5 cm rows; 0 nitrogen",
     trt_name == "26f_awide" ~ "Dukato population rye (A); planted fall 2026; 25 cm rows; ?? nitrogen",
+    trt_name == "26f_awide" ~ "Dukato population rye (A); planted fall 2026; 25 cm rows; 0 nitrogen",
 
     trt_name == "26f_borris" ~ "Borris a popular; planted fall 2026; 12.5 cm rows; no nitrogen",
     trt_name == "26f_hungarian" ~ "Dukato population rye (A); planted fall 2026; 25 cm rows; ?? nitrogen",
@@ -163,4 +166,4 @@ clim1_trtkey <-
 usethis::use_data(clim1_trtkey, overwrite = TRUE)
 
 clim1_trtkey %>%
-  write_csv("inst/extdata/clim1_trtkey.csv")
+  write_xlsx("inst/extdata/clim1_trtkey.xlsx")
