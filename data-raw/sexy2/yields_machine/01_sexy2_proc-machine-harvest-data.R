@@ -249,11 +249,12 @@ d8 <-
   left_join(sexy2_plotkey)
 
 
-# 9. clean up -------------------------------------------------------------
+# 9. clean up and add notes?-------------------------------------------------------------
 
 d9 <-
   d8 |>
-  select(field_id, sea_name, trt_name, harvest_date, block, plot, name, value)
+  select(field_id, sea_name, trt_name, harvest_date, block, plot, name, value) |>
+  mutate(notes = ifelse(name == "machine_drystraw_Mgha", "Single pass combine straw harvest", NA))
 
 # write it ----------------------------------------------------------------
 

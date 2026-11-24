@@ -1,241 +1,241 @@
-field_id,sea_name,trt_name,harvest_date,block,plot,name,value
-sexy2,25/26,xaprows,2026-08-11,B1,101,machine_drygrain_Mgha,5.572801666666667
-sexy2,25/26,xaprows,2026-08-11,B1,101,machine_drystraw_Mgha,10.934581859264762
-sexy2,25/26,xaprows,2026-08-11,B1,101,grainmoisture_pct,15.135
-sexy2,25/26,xaprows,2026-08-11,B1,101,dryprotein_pct,7.535799500000001
-sexy2,25/26,xaprows,2026-08-11,B1,101,tkw_g,33.28
-sexy2,25/26,p,2026-08-11,B1,102,machine_drygrain_Mgha,4.4134834375
-sexy2,25/26,p,2026-08-11,B1,102,machine_drystraw_Mgha,14.329832094063029
-sexy2,25/26,p,2026-08-11,B1,102,grainmoisture_pct,15.295
-sexy2,25/26,p,2026-08-11,B1,102,dryprotein_pct,8.5890625
-sexy2,25/26,p,2026-08-11,B1,102,tkw_g,24.86
-sexy2,25/26,xpcc,2026-08-11,B1,103,machine_drygrain_Mgha,3.8481845833333335
-sexy2,25/26,xpcc,2026-08-11,B1,103,machine_drystraw_Mgha,14.153588212139699
-sexy2,25/26,xpcc,2026-08-11,B1,103,grainmoisture_pct,15.81
-sexy2,25/26,xpcc,2026-08-11,B1,103,dryprotein_pct,7.7623
-sexy2,25/26,xpcc,2026-08-11,B1,103,tkw_g,24.240000000000002
-sexy2,25/26,apmix,2026-08-11,B1,104,machine_drygrain_Mgha,6.3829
-sexy2,25/26,apmix,2026-08-11,B1,104,machine_drystraw_Mgha,10.334193536841918
-sexy2,25/26,apmix,2026-08-11,B1,104,grainmoisture_pct,14.8
-sexy2,25/26,apmix,2026-08-11,B1,104,dryprotein_pct,7.7233695000000004
-sexy2,25/26,apmix,2026-08-11,B1,104,tkw_g,30.82
-sexy2,25/26,aprows,2026-08-11,B1,105,machine_drygrain_Mgha,6.035362500000001
-sexy2,25/26,aprows,2026-08-11,B1,105,machine_drystraw_Mgha,9.9037772907296
-sexy2,25/26,aprows,2026-08-11,B1,105,grainmoisture_pct,14.92
-sexy2,25/26,aprows,2026-08-11,B1,105,dryprotein_pct,7.891133999999999
-sexy2,25/26,aprows,2026-08-11,B1,105,tkw_g,32.76
-sexy2,25/26,xa,2026-07-30,B1,106,machine_drygrain_Mgha,6.183197708333333
-sexy2,25/26,xa,2026-07-30,B1,106,machine_drystraw_Mgha,7.895575724440534
-sexy2,25/26,xa,2026-07-30,B1,106,grainmoisture_pct,14.69
-sexy2,25/26,xa,2026-07-30,B1,106,dryprotein_pct,7.0892610000000005
-sexy2,25/26,xa,2026-07-30,B1,106,tkw_g,33.379999999999995
-sexy2,25/26,xp,2026-08-11,B1,107,machine_drygrain_Mgha,3.8380963541666664
-sexy2,25/26,xp,2026-08-11,B1,107,machine_drystraw_Mgha,12.832964904191858
-sexy2,25/26,xp,2026-08-11,B1,107,grainmoisture_pct,15.375
-sexy2,25/26,xp,2026-08-11,B1,107,dryprotein_pct,8.494376833333334
-sexy2,25/26,xp,2026-08-11,B1,107,tkw_g,24.939999999999998
-sexy2,25/26,xacc,2026-07-30,B1,108,machine_drygrain_Mgha,6.313233333333334
-sexy2,25/26,xacc,2026-07-30,B1,108,machine_drystraw_Mgha,7.898389575063577
-sexy2,25/26,xacc,2026-07-30,B1,108,grainmoisture_pct,14.3
-sexy2,25/26,xacc,2026-07-30,B1,108,dryprotein_pct,7.181660000000001
-sexy2,25/26,xacc,2026-07-30,B1,108,tkw_g,33.52
-sexy2,25/26,xapmix,2026-08-11,B1,109,machine_drygrain_Mgha,5.395696666666667
-sexy2,25/26,xapmix,2026-08-11,B1,109,machine_drystraw_Mgha,8.586687485538322
-sexy2,25/26,xapmix,2026-08-11,B1,109,grainmoisture_pct,14.58
-sexy2,25/26,xapmix,2026-08-11,B1,109,dryprotein_pct,7.8799565
-sexy2,25/26,xapmix,2026-08-11,B1,109,tkw_g,30.240000000000002
-sexy2,25/26,pcc,2026-08-11,B1,110,machine_drygrain_Mgha,3.970078125
-sexy2,25/26,pcc,2026-08-11,B1,110,machine_drystraw_Mgha,11.651792024850591
-sexy2,25/26,pcc,2026-08-11,B1,110,grainmoisture_pct,15.305
-sexy2,25/26,pcc,2026-08-11,B1,110,dryprotein_pct,8.7443275
-sexy2,25/26,pcc,2026-08-11,B1,110,tkw_g,25.02
-sexy2,25/26,acc,2026-07-30,B1,111,machine_drygrain_Mgha,6.552427291666667
-sexy2,25/26,acc,2026-07-30,B1,111,machine_drystraw_Mgha,6.311347084643219
-sexy2,25/26,acc,2026-07-30,B1,111,grainmoisture_pct,14.09
-sexy2,25/26,acc,2026-07-30,B1,111,dryprotein_pct,7.688905999999999
-sexy2,25/26,acc,2026-07-30,B1,111,tkw_g,33.42
-sexy2,25/26,a,2026-07-30,B1,112,machine_drygrain_Mgha,6.9155774999999995
-sexy2,25/26,a,2026-07-30,B1,112,machine_drystraw_Mgha,6.652958850296943
-sexy2,25/26,a,2026-07-30,B1,112,grainmoisture_pct,13.735
-sexy2,25/26,a,2026-07-30,B1,112,dryprotein_pct,7.785774
-sexy2,25/26,a,2026-07-30,B1,112,tkw_g,32.879999999999995
-sexy2,25/26,apmix,2026-08-11,B2,201,machine_drygrain_Mgha,6.011038333333334
-sexy2,25/26,apmix,2026-08-11,B2,201,machine_drystraw_Mgha,8.88798783091256
-sexy2,25/26,apmix,2026-08-11,B2,201,grainmoisture_pct,14.535
-sexy2,25/26,apmix,2026-08-11,B2,201,dryprotein_pct,7.67901
-sexy2,25/26,apmix,2026-08-11,B2,201,tkw_g,32.239999999999995
-sexy2,25/26,aprows,2026-08-11,B2,202,machine_drygrain_Mgha,5.815181041666667
-sexy2,25/26,aprows,2026-08-11,B2,202,machine_drystraw_Mgha,8.966246009302948
-sexy2,25/26,aprows,2026-08-11,B2,202,grainmoisture_pct,14.535
-sexy2,25/26,aprows,2026-08-11,B2,202,dryprotein_pct,7.7688705
-sexy2,25/26,aprows,2026-08-11,B2,202,tkw_g,31.5
-sexy2,25/26,xapmix,2026-08-11,B2,203,machine_drygrain_Mgha,5.0626184375
-sexy2,25/26,xapmix,2026-08-11,B2,203,machine_drystraw_Mgha,9.588883110059909
-sexy2,25/26,xapmix,2026-08-11,B2,203,grainmoisture_pct,14.645
-sexy2,25/26,xapmix,2026-08-11,B2,203,dryprotein_pct,7.1228679999999995
-sexy2,25/26,xapmix,2026-08-11,B2,203,tkw_g,30.34
-sexy2,25/26,xpcc,2026-08-11,B2,204,machine_drygrain_Mgha,2.8710072916666673
-sexy2,25/26,xpcc,2026-08-11,B2,204,machine_drystraw_Mgha,11.421611709811106
-sexy2,25/26,xpcc,2026-08-11,B2,204,grainmoisture_pct,15.455
-sexy2,25/26,xpcc,2026-08-11,B2,204,dryprotein_pct,7.7224544999999996
-sexy2,25/26,xpcc,2026-08-11,B2,204,tkw_g,25.7
-sexy2,25/26,pcc,2026-08-11,B2,205,machine_drygrain_Mgha,3.8145971875
-sexy2,25/26,pcc,2026-08-11,B2,205,machine_drystraw_Mgha,12.191879537746246
-sexy2,25/26,pcc,2026-08-11,B2,205,grainmoisture_pct,15.504999999999999
-sexy2,25/26,pcc,2026-08-11,B2,205,dryprotein_pct,8.720023000000001
-sexy2,25/26,pcc,2026-08-11,B2,205,tkw_g,26.200000000000003
-sexy2,25/26,xa,2026-07-30,B2,206,machine_drygrain_Mgha,8.064291666666668
-sexy2,25/26,xa,2026-07-30,B2,206,machine_drystraw_Mgha,9.185539556294673
-sexy2,25/26,xa,2026-07-30,B2,206,grainmoisture_pct,14
-sexy2,25/26,xa,2026-07-30,B2,206,dryprotein_pct,7.40857
-sexy2,25/26,xa,2026-07-30,B2,206,tkw_g,34.38
-sexy2,25/26,xacc,2026-07-30,B2,207,machine_drygrain_Mgha,8.347187395833334
-sexy2,25/26,xacc,2026-07-30,B2,207,machine_drystraw_Mgha,9.687527545105604
-sexy2,25/26,xacc,2026-07-30,B2,207,grainmoisture_pct,13.965
-sexy2,25/26,xacc,2026-07-30,B2,207,dryprotein_pct,7.446288000000001
-sexy2,25/26,xacc,2026-07-30,B2,207,tkw_g,34.66
-sexy2,25/26,xaprows,2026-08-11,B2,208,machine_drygrain_Mgha,6.313532916666668
-sexy2,25/26,xaprows,2026-08-11,B2,208,machine_drystraw_Mgha,11.94392787704305
-sexy2,25/26,xaprows,2026-08-11,B2,208,grainmoisture_pct,14.73
-sexy2,25/26,xaprows,2026-08-11,B2,208,dryprotein_pct,7.883294
-sexy2,25/26,xaprows,2026-08-11,B2,208,tkw_g,30.32
-sexy2,25/26,xp,2026-08-11,B2,209,machine_drygrain_Mgha,4.334931666666668
-sexy2,25/26,xp,2026-08-11,B2,209,machine_drystraw_Mgha,15.265587372294162
-sexy2,25/26,xp,2026-08-11,B2,209,grainmoisture_pct,15.14
-sexy2,25/26,xp,2026-08-11,B2,209,dryprotein_pct,8.426708000000001
-sexy2,25/26,xp,2026-08-11,B2,209,tkw_g,25.16
-sexy2,25/26,a,2026-07-30,B2,210,machine_drygrain_Mgha,7.357603541666666
-sexy2,25/26,a,2026-07-30,B2,210,machine_drystraw_Mgha,8.505444973120376
-sexy2,25/26,a,2026-07-30,B2,210,grainmoisture_pct,14.405000000000001
-sexy2,25/26,a,2026-07-30,B2,210,dryprotein_pct,7.5279965
-sexy2,25/26,a,2026-07-30,B2,210,tkw_g,35.06
-sexy2,25/26,p,2026-08-11,B2,211,machine_drygrain_Mgha,4.417803750000001
-sexy2,25/26,p,2026-08-11,B2,211,machine_drystraw_Mgha,15.034560945148794
-sexy2,25/26,p,2026-08-11,B2,211,grainmoisture_pct,14.94
-sexy2,25/26,p,2026-08-11,B2,211,dryprotein_pct,8.220837
-sexy2,25/26,p,2026-08-11,B2,211,tkw_g,24.44
-sexy2,25/26,acc,2026-07-30,B2,212,machine_drygrain_Mgha,7.835486666666666
-sexy2,25/26,acc,2026-07-30,B2,212,machine_drystraw_Mgha,8.587877084567186
-sexy2,25/26,acc,2026-07-30,B2,212,grainmoisture_pct,14.21
-sexy2,25/26,acc,2026-07-30,B2,212,dryprotein_pct,7.523733
-sexy2,25/26,acc,2026-07-30,B2,212,tkw_g,34.82
-sexy2,25/26,xacc,2026-07-30,B3,301,machine_drygrain_Mgha,7.538724375000001
-sexy2,25/26,xacc,2026-07-30,B3,301,machine_drystraw_Mgha,8.245411690042692
-sexy2,25/26,xacc,2026-07-30,B3,301,grainmoisture_pct,13.555
-sexy2,25/26,xacc,2026-07-30,B3,301,dryprotein_pct,7.516429500000001
-sexy2,25/26,xacc,2026-07-30,B3,301,tkw_g,32.18
-sexy2,25/26,xpcc,2026-08-11,B3,302,machine_drygrain_Mgha,4.13985
-sexy2,25/26,xpcc,2026-08-11,B3,302,machine_drystraw_Mgha,15.044540306103352
-sexy2,25/26,xpcc,2026-08-11,B3,302,grainmoisture_pct,15.08
-sexy2,25/26,xpcc,2026-08-11,B3,302,dryprotein_pct,7.7744085
-sexy2,25/26,xpcc,2026-08-11,B3,302,tkw_g,24.22
-sexy2,25/26,p,2026-08-11,B3,303,machine_drygrain_Mgha,4.6224175
-sexy2,25/26,p,2026-08-11,B3,303,machine_drystraw_Mgha,17.78714892821319
-sexy2,25/26,p,2026-08-11,B3,303,grainmoisture_pct,15.185
-sexy2,25/26,p,2026-08-11,B3,303,dryprotein_pct,7.841138
-sexy2,25/26,p,2026-08-11,B3,303,tkw_g,24.82
-sexy2,25/26,acc,2026-07-30,B3,304,machine_drygrain_Mgha,8.678888020833332
-sexy2,25/26,acc,2026-07-30,B3,304,machine_drystraw_Mgha,10.345125606406304
-sexy2,25/26,acc,2026-07-30,B3,304,grainmoisture_pct,13.625
-sexy2,25/26,acc,2026-07-30,B3,304,dryprotein_pct,7.5664525000000005
-sexy2,25/26,acc,2026-07-30,B3,304,tkw_g,34.18
-sexy2,25/26,xaprows,2026-08-11,B3,305,machine_drygrain_Mgha,6.342943437500001
-sexy2,25/26,xaprows,2026-08-11,B3,305,machine_drystraw_Mgha,13.091383998077005
-sexy2,25/26,xaprows,2026-08-11,B3,305,grainmoisture_pct,14.645
-sexy2,25/26,xaprows,2026-08-11,B3,305,dryprotein_pct,7.400366
-sexy2,25/26,xaprows,2026-08-11,B3,305,tkw_g,28.96
-sexy2,25/26,xapmix,2026-08-11,B3,306,machine_drygrain_Mgha,6.4308250000000005
-sexy2,25/26,xapmix,2026-08-11,B3,306,machine_drystraw_Mgha,13.0981256129184
-sexy2,25/26,xapmix,2026-08-11,B3,306,grainmoisture_pct,14.8
-sexy2,25/26,xapmix,2026-08-11,B3,306,dryprotein_pct,7.5956885
-sexy2,25/26,xapmix,2026-08-11,B3,306,tkw_g,29.32
-sexy2,25/26,apmix,2026-08-11,B3,307,machine_drygrain_Mgha,6.660369375000001
-sexy2,25/26,apmix,2026-08-11,B3,307,machine_drystraw_Mgha,13.932577583325147
-sexy2,25/26,apmix,2026-08-11,B3,307,grainmoisture_pct,14.77
-sexy2,25/26,apmix,2026-08-11,B3,307,dryprotein_pct,7.6750845000000005
-sexy2,25/26,apmix,2026-08-11,B3,307,tkw_g,30.58
-sexy2,25/26,a,2026-07-30,B3,308,machine_drygrain_Mgha,8.92959375
-sexy2,25/26,a,2026-07-30,B3,308,machine_drystraw_Mgha,10.850127520954073
-sexy2,25/26,a,2026-07-30,B3,308,grainmoisture_pct,13.41
-sexy2,25/26,a,2026-07-30,B3,308,dryprotein_pct,7.6588855
-sexy2,25/26,a,2026-07-30,B3,308,tkw_g,35.480000000000004
-sexy2,25/26,pcc,2026-08-11,B3,309,machine_drygrain_Mgha,4.258670833333334
-sexy2,25/26,pcc,2026-08-11,B3,309,machine_drystraw_Mgha,17.18328332775119
-sexy2,25/26,pcc,2026-08-11,B3,309,grainmoisture_pct,15.18
-sexy2,25/26,pcc,2026-08-11,B3,309,dryprotein_pct,8.7406485
-sexy2,25/26,pcc,2026-08-11,B3,309,tkw_g,23.08
-sexy2,25/26,aprows,2026-08-11,B3,310,machine_drygrain_Mgha,5.983790312500001
-sexy2,25/26,aprows,2026-08-11,B3,310,machine_drystraw_Mgha,13.550078354262713
-sexy2,25/26,aprows,2026-08-11,B3,310,grainmoisture_pct,14.695
-sexy2,25/26,aprows,2026-08-11,B3,310,dryprotein_pct,8.739602999999999
-sexy2,25/26,aprows,2026-08-11,B3,310,tkw_g,27.2
-sexy2,25/26,xp,2026-08-11,B3,311,machine_drygrain_Mgha,4.351428229166667
-sexy2,25/26,xp,2026-08-11,B3,311,machine_drystraw_Mgha,17.348766629931642
-sexy2,25/26,xp,2026-08-11,B3,311,grainmoisture_pct,15.335
-sexy2,25/26,xp,2026-08-11,B3,311,dryprotein_pct,8.300874499999999
-sexy2,25/26,xp,2026-08-11,B3,311,tkw_g,24.200000000000003
-sexy2,25/26,xa,2026-07-30,B3,312,machine_drygrain_Mgha,8.463305000000002
-sexy2,25/26,xa,2026-07-30,B3,312,machine_drystraw_Mgha,9.446232730042972
-sexy2,25/26,xa,2026-07-30,B3,312,grainmoisture_pct,13.344999999999999
-sexy2,25/26,xa,2026-07-30,B3,312,dryprotein_pct,7.851100500000001
-sexy2,25/26,xa,2026-07-30,B3,312,tkw_g,34.519999999999996
-sexy2,25/26,xpcc,2026-08-11,B4,401,machine_drygrain_Mgha,4.381265
-sexy2,25/26,xpcc,2026-08-11,B4,401,machine_drystraw_Mgha,16.581666037481856
-sexy2,25/26,xpcc,2026-08-11,B4,401,grainmoisture_pct,15.440000000000001
-sexy2,25/26,xpcc,2026-08-11,B4,401,dryprotein_pct,8.227974
-sexy2,25/26,xpcc,2026-08-11,B4,401,tkw_g,23.74
-sexy2,25/26,a,2026-07-30,B4,402,machine_drygrain_Mgha,8.60844875
-sexy2,25/26,a,2026-07-30,B4,402,machine_drystraw_Mgha,9.495029768552403
-sexy2,25/26,a,2026-07-30,B4,402,grainmoisture_pct,13.265
-sexy2,25/26,a,2026-07-30,B4,402,dryprotein_pct,8.127020000000002
-sexy2,25/26,a,2026-07-30,B4,402,tkw_g,35.019999999999996
-sexy2,25/26,xa,2026-07-30,B4,403,machine_drygrain_Mgha,8.225634479166667
-sexy2,25/26,xa,2026-07-30,B4,403,machine_drystraw_Mgha,9.49193193181558
-sexy2,25/26,xa,2026-07-30,B4,403,grainmoisture_pct,13.205
-sexy2,25/26,xa,2026-07-30,B4,403,dryprotein_pct,8.0546495
-sexy2,25/26,xa,2026-07-30,B4,403,tkw_g,32.339999999999996
-sexy2,25/26,pcc,2026-08-11,B4,404,machine_drygrain_Mgha,4.4696521874999995
-sexy2,25/26,pcc,2026-08-11,B4,404,machine_drystraw_Mgha,17.340852045524976
-sexy2,25/26,pcc,2026-08-11,B4,404,grainmoisture_pct,14.965
-sexy2,25/26,pcc,2026-08-11,B4,404,dryprotein_pct,8.796985500000002
-sexy2,25/26,pcc,2026-08-11,B4,404,tkw_g,24.68
-sexy2,25/26,xaprows,2026-08-11,B4,405,machine_drygrain_Mgha,6.150510416666667
-sexy2,25/26,xaprows,2026-08-11,B4,405,machine_drystraw_Mgha,12.834893806316474
-sexy2,25/26,xaprows,2026-08-11,B4,405,grainmoisture_pct,14.675
-sexy2,25/26,xaprows,2026-08-11,B4,405,dryprotein_pct,7.7816335
-sexy2,25/26,xaprows,2026-08-11,B4,405,tkw_g,28.240000000000002
-sexy2,25/26,acc,2026-07-30,B4,406,machine_drygrain_Mgha,8.576106666666666
-sexy2,25/26,acc,2026-07-30,B4,406,machine_drystraw_Mgha,10.209073859148077
-sexy2,25/26,acc,2026-07-30,B4,406,grainmoisture_pct,13.08
-sexy2,25/26,acc,2026-07-30,B4,406,dryprotein_pct,8.2356735
-sexy2,25/26,acc,2026-07-30,B4,406,tkw_g,33.48
-sexy2,25/26,aprows,2026-08-11,B4,407,machine_drygrain_Mgha,6.359511875
-sexy2,25/26,aprows,2026-08-11,B4,407,machine_drystraw_Mgha,13.82105915653553
-sexy2,25/26,aprows,2026-08-11,B4,407,grainmoisture_pct,14.469999999999999
-sexy2,25/26,aprows,2026-08-11,B4,407,dryprotein_pct,8.578637
-sexy2,25/26,aprows,2026-08-11,B4,407,tkw_g,29.9
-sexy2,25/26,xp,2026-08-11,B4,408,machine_drygrain_Mgha,4.242102083333333
-sexy2,25/26,xp,2026-08-11,B4,408,machine_drystraw_Mgha,16.43731089699817
-sexy2,25/26,xp,2026-08-11,B4,408,grainmoisture_pct,15.65
-sexy2,25/26,xp,2026-08-11,B4,408,dryprotein_pct,8.755548000000001
-sexy2,25/26,xp,2026-08-11,B4,408,tkw_g,23.32
-sexy2,25/26,p,2026-08-11,B4,409,machine_drygrain_Mgha,4.333786875
-sexy2,25/26,p,2026-08-11,B4,409,machine_drystraw_Mgha,16.444018647320323
-sexy2,25/26,p,2026-08-11,B4,409,grainmoisture_pct,14.815000000000001
-sexy2,25/26,p,2026-08-11,B4,409,dryprotein_pct,8.999802500000001
-sexy2,25/26,p,2026-08-11,B4,409,tkw_g,23.64
-sexy2,25/26,apmix,2026-08-11,B4,410,machine_drygrain_Mgha,6.37681875
-sexy2,25/26,apmix,2026-08-11,B4,410,machine_drystraw_Mgha,12.64625391523723
-sexy2,25/26,apmix,2026-08-11,B4,410,grainmoisture_pct,14.620000000000001
-sexy2,25/26,apmix,2026-08-11,B4,410,dryprotein_pct,8.2946705
-sexy2,25/26,apmix,2026-08-11,B4,410,tkw_g,28.66
-sexy2,25/26,xacc,2026-07-30,B4,411,machine_drygrain_Mgha,7.87986875
-sexy2,25/26,xacc,2026-07-30,B4,411,machine_drystraw_Mgha,9.408039674059548
-sexy2,25/26,xacc,2026-07-30,B4,411,grainmoisture_pct,13.94
-sexy2,25/26,xacc,2026-07-30,B4,411,dryprotein_pct,7.381459166666668
-sexy2,25/26,xacc,2026-07-30,B4,411,tkw_g,31.099999999999998
-sexy2,25/26,xapmix,2026-08-11,B4,412,machine_drygrain_Mgha,6.247599166666667
-sexy2,25/26,xapmix,2026-08-11,B4,412,machine_drystraw_Mgha,11.435415566432328
-sexy2,25/26,xapmix,2026-08-11,B4,412,grainmoisture_pct,14.66
-sexy2,25/26,xapmix,2026-08-11,B4,412,dryprotein_pct,7.7061519999999994
-sexy2,25/26,xapmix,2026-08-11,B4,412,tkw_g,30.64
+field_id,sea_name,trt_name,harvest_date,block,plot,name,value,notes
+sexy2,25/26,xaprows,2026-08-11,B1,101,machine_drygrain_Mgha,5.572801666666667,NA
+sexy2,25/26,xaprows,2026-08-11,B1,101,machine_drystraw_Mgha,10.934581859264762,Single pass combine straw harvest
+sexy2,25/26,xaprows,2026-08-11,B1,101,grainmoisture_pct,15.135,NA
+sexy2,25/26,xaprows,2026-08-11,B1,101,dryprotein_pct,7.535799500000001,NA
+sexy2,25/26,xaprows,2026-08-11,B1,101,tkw_g,33.28,NA
+sexy2,25/26,p,2026-08-11,B1,102,machine_drygrain_Mgha,4.4134834375,NA
+sexy2,25/26,p,2026-08-11,B1,102,machine_drystraw_Mgha,14.329832094063029,Single pass combine straw harvest
+sexy2,25/26,p,2026-08-11,B1,102,grainmoisture_pct,15.295,NA
+sexy2,25/26,p,2026-08-11,B1,102,dryprotein_pct,8.5890625,NA
+sexy2,25/26,p,2026-08-11,B1,102,tkw_g,24.86,NA
+sexy2,25/26,xpcc,2026-08-11,B1,103,machine_drygrain_Mgha,3.8481845833333335,NA
+sexy2,25/26,xpcc,2026-08-11,B1,103,machine_drystraw_Mgha,14.153588212139699,Single pass combine straw harvest
+sexy2,25/26,xpcc,2026-08-11,B1,103,grainmoisture_pct,15.81,NA
+sexy2,25/26,xpcc,2026-08-11,B1,103,dryprotein_pct,7.7623,NA
+sexy2,25/26,xpcc,2026-08-11,B1,103,tkw_g,24.240000000000002,NA
+sexy2,25/26,apmix,2026-08-11,B1,104,machine_drygrain_Mgha,6.3829,NA
+sexy2,25/26,apmix,2026-08-11,B1,104,machine_drystraw_Mgha,10.334193536841918,Single pass combine straw harvest
+sexy2,25/26,apmix,2026-08-11,B1,104,grainmoisture_pct,14.8,NA
+sexy2,25/26,apmix,2026-08-11,B1,104,dryprotein_pct,7.7233695000000004,NA
+sexy2,25/26,apmix,2026-08-11,B1,104,tkw_g,30.82,NA
+sexy2,25/26,aprows,2026-08-11,B1,105,machine_drygrain_Mgha,6.035362500000001,NA
+sexy2,25/26,aprows,2026-08-11,B1,105,machine_drystraw_Mgha,9.9037772907296,Single pass combine straw harvest
+sexy2,25/26,aprows,2026-08-11,B1,105,grainmoisture_pct,14.92,NA
+sexy2,25/26,aprows,2026-08-11,B1,105,dryprotein_pct,7.891133999999999,NA
+sexy2,25/26,aprows,2026-08-11,B1,105,tkw_g,32.76,NA
+sexy2,25/26,xa,2026-07-30,B1,106,machine_drygrain_Mgha,6.183197708333333,NA
+sexy2,25/26,xa,2026-07-30,B1,106,machine_drystraw_Mgha,7.895575724440534,Single pass combine straw harvest
+sexy2,25/26,xa,2026-07-30,B1,106,grainmoisture_pct,14.69,NA
+sexy2,25/26,xa,2026-07-30,B1,106,dryprotein_pct,7.0892610000000005,NA
+sexy2,25/26,xa,2026-07-30,B1,106,tkw_g,33.379999999999995,NA
+sexy2,25/26,xp,2026-08-11,B1,107,machine_drygrain_Mgha,3.8380963541666664,NA
+sexy2,25/26,xp,2026-08-11,B1,107,machine_drystraw_Mgha,12.832964904191858,Single pass combine straw harvest
+sexy2,25/26,xp,2026-08-11,B1,107,grainmoisture_pct,15.375,NA
+sexy2,25/26,xp,2026-08-11,B1,107,dryprotein_pct,8.494376833333334,NA
+sexy2,25/26,xp,2026-08-11,B1,107,tkw_g,24.939999999999998,NA
+sexy2,25/26,xacc,2026-07-30,B1,108,machine_drygrain_Mgha,6.313233333333334,NA
+sexy2,25/26,xacc,2026-07-30,B1,108,machine_drystraw_Mgha,7.898389575063577,Single pass combine straw harvest
+sexy2,25/26,xacc,2026-07-30,B1,108,grainmoisture_pct,14.3,NA
+sexy2,25/26,xacc,2026-07-30,B1,108,dryprotein_pct,7.181660000000001,NA
+sexy2,25/26,xacc,2026-07-30,B1,108,tkw_g,33.52,NA
+sexy2,25/26,xapmix,2026-08-11,B1,109,machine_drygrain_Mgha,5.395696666666667,NA
+sexy2,25/26,xapmix,2026-08-11,B1,109,machine_drystraw_Mgha,8.586687485538322,Single pass combine straw harvest
+sexy2,25/26,xapmix,2026-08-11,B1,109,grainmoisture_pct,14.58,NA
+sexy2,25/26,xapmix,2026-08-11,B1,109,dryprotein_pct,7.8799565,NA
+sexy2,25/26,xapmix,2026-08-11,B1,109,tkw_g,30.240000000000002,NA
+sexy2,25/26,pcc,2026-08-11,B1,110,machine_drygrain_Mgha,3.970078125,NA
+sexy2,25/26,pcc,2026-08-11,B1,110,machine_drystraw_Mgha,11.651792024850591,Single pass combine straw harvest
+sexy2,25/26,pcc,2026-08-11,B1,110,grainmoisture_pct,15.305,NA
+sexy2,25/26,pcc,2026-08-11,B1,110,dryprotein_pct,8.7443275,NA
+sexy2,25/26,pcc,2026-08-11,B1,110,tkw_g,25.02,NA
+sexy2,25/26,acc,2026-07-30,B1,111,machine_drygrain_Mgha,6.552427291666667,NA
+sexy2,25/26,acc,2026-07-30,B1,111,machine_drystraw_Mgha,6.311347084643219,Single pass combine straw harvest
+sexy2,25/26,acc,2026-07-30,B1,111,grainmoisture_pct,14.09,NA
+sexy2,25/26,acc,2026-07-30,B1,111,dryprotein_pct,7.688905999999999,NA
+sexy2,25/26,acc,2026-07-30,B1,111,tkw_g,33.42,NA
+sexy2,25/26,a,2026-07-30,B1,112,machine_drygrain_Mgha,6.9155774999999995,NA
+sexy2,25/26,a,2026-07-30,B1,112,machine_drystraw_Mgha,6.652958850296943,Single pass combine straw harvest
+sexy2,25/26,a,2026-07-30,B1,112,grainmoisture_pct,13.735,NA
+sexy2,25/26,a,2026-07-30,B1,112,dryprotein_pct,7.785774,NA
+sexy2,25/26,a,2026-07-30,B1,112,tkw_g,32.879999999999995,NA
+sexy2,25/26,apmix,2026-08-11,B2,201,machine_drygrain_Mgha,6.011038333333334,NA
+sexy2,25/26,apmix,2026-08-11,B2,201,machine_drystraw_Mgha,8.88798783091256,Single pass combine straw harvest
+sexy2,25/26,apmix,2026-08-11,B2,201,grainmoisture_pct,14.535,NA
+sexy2,25/26,apmix,2026-08-11,B2,201,dryprotein_pct,7.67901,NA
+sexy2,25/26,apmix,2026-08-11,B2,201,tkw_g,32.239999999999995,NA
+sexy2,25/26,aprows,2026-08-11,B2,202,machine_drygrain_Mgha,5.815181041666667,NA
+sexy2,25/26,aprows,2026-08-11,B2,202,machine_drystraw_Mgha,8.966246009302948,Single pass combine straw harvest
+sexy2,25/26,aprows,2026-08-11,B2,202,grainmoisture_pct,14.535,NA
+sexy2,25/26,aprows,2026-08-11,B2,202,dryprotein_pct,7.7688705,NA
+sexy2,25/26,aprows,2026-08-11,B2,202,tkw_g,31.5,NA
+sexy2,25/26,xapmix,2026-08-11,B2,203,machine_drygrain_Mgha,5.0626184375,NA
+sexy2,25/26,xapmix,2026-08-11,B2,203,machine_drystraw_Mgha,9.588883110059909,Single pass combine straw harvest
+sexy2,25/26,xapmix,2026-08-11,B2,203,grainmoisture_pct,14.645,NA
+sexy2,25/26,xapmix,2026-08-11,B2,203,dryprotein_pct,7.1228679999999995,NA
+sexy2,25/26,xapmix,2026-08-11,B2,203,tkw_g,30.34,NA
+sexy2,25/26,xpcc,2026-08-11,B2,204,machine_drygrain_Mgha,2.8710072916666673,NA
+sexy2,25/26,xpcc,2026-08-11,B2,204,machine_drystraw_Mgha,11.421611709811106,Single pass combine straw harvest
+sexy2,25/26,xpcc,2026-08-11,B2,204,grainmoisture_pct,15.455,NA
+sexy2,25/26,xpcc,2026-08-11,B2,204,dryprotein_pct,7.7224544999999996,NA
+sexy2,25/26,xpcc,2026-08-11,B2,204,tkw_g,25.7,NA
+sexy2,25/26,pcc,2026-08-11,B2,205,machine_drygrain_Mgha,3.8145971875,NA
+sexy2,25/26,pcc,2026-08-11,B2,205,machine_drystraw_Mgha,12.191879537746246,Single pass combine straw harvest
+sexy2,25/26,pcc,2026-08-11,B2,205,grainmoisture_pct,15.504999999999999,NA
+sexy2,25/26,pcc,2026-08-11,B2,205,dryprotein_pct,8.720023000000001,NA
+sexy2,25/26,pcc,2026-08-11,B2,205,tkw_g,26.200000000000003,NA
+sexy2,25/26,xa,2026-07-30,B2,206,machine_drygrain_Mgha,8.064291666666668,NA
+sexy2,25/26,xa,2026-07-30,B2,206,machine_drystraw_Mgha,9.185539556294673,Single pass combine straw harvest
+sexy2,25/26,xa,2026-07-30,B2,206,grainmoisture_pct,14,NA
+sexy2,25/26,xa,2026-07-30,B2,206,dryprotein_pct,7.40857,NA
+sexy2,25/26,xa,2026-07-30,B2,206,tkw_g,34.38,NA
+sexy2,25/26,xacc,2026-07-30,B2,207,machine_drygrain_Mgha,8.347187395833334,NA
+sexy2,25/26,xacc,2026-07-30,B2,207,machine_drystraw_Mgha,9.687527545105604,Single pass combine straw harvest
+sexy2,25/26,xacc,2026-07-30,B2,207,grainmoisture_pct,13.965,NA
+sexy2,25/26,xacc,2026-07-30,B2,207,dryprotein_pct,7.446288000000001,NA
+sexy2,25/26,xacc,2026-07-30,B2,207,tkw_g,34.66,NA
+sexy2,25/26,xaprows,2026-08-11,B2,208,machine_drygrain_Mgha,6.313532916666668,NA
+sexy2,25/26,xaprows,2026-08-11,B2,208,machine_drystraw_Mgha,11.94392787704305,Single pass combine straw harvest
+sexy2,25/26,xaprows,2026-08-11,B2,208,grainmoisture_pct,14.73,NA
+sexy2,25/26,xaprows,2026-08-11,B2,208,dryprotein_pct,7.883294,NA
+sexy2,25/26,xaprows,2026-08-11,B2,208,tkw_g,30.32,NA
+sexy2,25/26,xp,2026-08-11,B2,209,machine_drygrain_Mgha,4.334931666666668,NA
+sexy2,25/26,xp,2026-08-11,B2,209,machine_drystraw_Mgha,15.265587372294162,Single pass combine straw harvest
+sexy2,25/26,xp,2026-08-11,B2,209,grainmoisture_pct,15.14,NA
+sexy2,25/26,xp,2026-08-11,B2,209,dryprotein_pct,8.426708000000001,NA
+sexy2,25/26,xp,2026-08-11,B2,209,tkw_g,25.16,NA
+sexy2,25/26,a,2026-07-30,B2,210,machine_drygrain_Mgha,7.357603541666666,NA
+sexy2,25/26,a,2026-07-30,B2,210,machine_drystraw_Mgha,8.505444973120376,Single pass combine straw harvest
+sexy2,25/26,a,2026-07-30,B2,210,grainmoisture_pct,14.405000000000001,NA
+sexy2,25/26,a,2026-07-30,B2,210,dryprotein_pct,7.5279965,NA
+sexy2,25/26,a,2026-07-30,B2,210,tkw_g,35.06,NA
+sexy2,25/26,p,2026-08-11,B2,211,machine_drygrain_Mgha,4.417803750000001,NA
+sexy2,25/26,p,2026-08-11,B2,211,machine_drystraw_Mgha,15.034560945148794,Single pass combine straw harvest
+sexy2,25/26,p,2026-08-11,B2,211,grainmoisture_pct,14.94,NA
+sexy2,25/26,p,2026-08-11,B2,211,dryprotein_pct,8.220837,NA
+sexy2,25/26,p,2026-08-11,B2,211,tkw_g,24.44,NA
+sexy2,25/26,acc,2026-07-30,B2,212,machine_drygrain_Mgha,7.835486666666666,NA
+sexy2,25/26,acc,2026-07-30,B2,212,machine_drystraw_Mgha,8.587877084567186,Single pass combine straw harvest
+sexy2,25/26,acc,2026-07-30,B2,212,grainmoisture_pct,14.21,NA
+sexy2,25/26,acc,2026-07-30,B2,212,dryprotein_pct,7.523733,NA
+sexy2,25/26,acc,2026-07-30,B2,212,tkw_g,34.82,NA
+sexy2,25/26,xacc,2026-07-30,B3,301,machine_drygrain_Mgha,7.538724375000001,NA
+sexy2,25/26,xacc,2026-07-30,B3,301,machine_drystraw_Mgha,8.245411690042692,Single pass combine straw harvest
+sexy2,25/26,xacc,2026-07-30,B3,301,grainmoisture_pct,13.555,NA
+sexy2,25/26,xacc,2026-07-30,B3,301,dryprotein_pct,7.516429500000001,NA
+sexy2,25/26,xacc,2026-07-30,B3,301,tkw_g,32.18,NA
+sexy2,25/26,xpcc,2026-08-11,B3,302,machine_drygrain_Mgha,4.13985,NA
+sexy2,25/26,xpcc,2026-08-11,B3,302,machine_drystraw_Mgha,15.044540306103352,Single pass combine straw harvest
+sexy2,25/26,xpcc,2026-08-11,B3,302,grainmoisture_pct,15.08,NA
+sexy2,25/26,xpcc,2026-08-11,B3,302,dryprotein_pct,7.7744085,NA
+sexy2,25/26,xpcc,2026-08-11,B3,302,tkw_g,24.22,NA
+sexy2,25/26,p,2026-08-11,B3,303,machine_drygrain_Mgha,4.6224175,NA
+sexy2,25/26,p,2026-08-11,B3,303,machine_drystraw_Mgha,17.78714892821319,Single pass combine straw harvest
+sexy2,25/26,p,2026-08-11,B3,303,grainmoisture_pct,15.185,NA
+sexy2,25/26,p,2026-08-11,B3,303,dryprotein_pct,7.841138,NA
+sexy2,25/26,p,2026-08-11,B3,303,tkw_g,24.82,NA
+sexy2,25/26,acc,2026-07-30,B3,304,machine_drygrain_Mgha,8.678888020833332,NA
+sexy2,25/26,acc,2026-07-30,B3,304,machine_drystraw_Mgha,10.345125606406304,Single pass combine straw harvest
+sexy2,25/26,acc,2026-07-30,B3,304,grainmoisture_pct,13.625,NA
+sexy2,25/26,acc,2026-07-30,B3,304,dryprotein_pct,7.5664525000000005,NA
+sexy2,25/26,acc,2026-07-30,B3,304,tkw_g,34.18,NA
+sexy2,25/26,xaprows,2026-08-11,B3,305,machine_drygrain_Mgha,6.342943437500001,NA
+sexy2,25/26,xaprows,2026-08-11,B3,305,machine_drystraw_Mgha,13.091383998077005,Single pass combine straw harvest
+sexy2,25/26,xaprows,2026-08-11,B3,305,grainmoisture_pct,14.645,NA
+sexy2,25/26,xaprows,2026-08-11,B3,305,dryprotein_pct,7.400366,NA
+sexy2,25/26,xaprows,2026-08-11,B3,305,tkw_g,28.96,NA
+sexy2,25/26,xapmix,2026-08-11,B3,306,machine_drygrain_Mgha,6.4308250000000005,NA
+sexy2,25/26,xapmix,2026-08-11,B3,306,machine_drystraw_Mgha,13.0981256129184,Single pass combine straw harvest
+sexy2,25/26,xapmix,2026-08-11,B3,306,grainmoisture_pct,14.8,NA
+sexy2,25/26,xapmix,2026-08-11,B3,306,dryprotein_pct,7.5956885,NA
+sexy2,25/26,xapmix,2026-08-11,B3,306,tkw_g,29.32,NA
+sexy2,25/26,apmix,2026-08-11,B3,307,machine_drygrain_Mgha,6.660369375000001,NA
+sexy2,25/26,apmix,2026-08-11,B3,307,machine_drystraw_Mgha,13.932577583325147,Single pass combine straw harvest
+sexy2,25/26,apmix,2026-08-11,B3,307,grainmoisture_pct,14.77,NA
+sexy2,25/26,apmix,2026-08-11,B3,307,dryprotein_pct,7.6750845000000005,NA
+sexy2,25/26,apmix,2026-08-11,B3,307,tkw_g,30.58,NA
+sexy2,25/26,a,2026-07-30,B3,308,machine_drygrain_Mgha,8.92959375,NA
+sexy2,25/26,a,2026-07-30,B3,308,machine_drystraw_Mgha,10.850127520954073,Single pass combine straw harvest
+sexy2,25/26,a,2026-07-30,B3,308,grainmoisture_pct,13.41,NA
+sexy2,25/26,a,2026-07-30,B3,308,dryprotein_pct,7.6588855,NA
+sexy2,25/26,a,2026-07-30,B3,308,tkw_g,35.480000000000004,NA
+sexy2,25/26,pcc,2026-08-11,B3,309,machine_drygrain_Mgha,4.258670833333334,NA
+sexy2,25/26,pcc,2026-08-11,B3,309,machine_drystraw_Mgha,17.18328332775119,Single pass combine straw harvest
+sexy2,25/26,pcc,2026-08-11,B3,309,grainmoisture_pct,15.18,NA
+sexy2,25/26,pcc,2026-08-11,B3,309,dryprotein_pct,8.7406485,NA
+sexy2,25/26,pcc,2026-08-11,B3,309,tkw_g,23.08,NA
+sexy2,25/26,aprows,2026-08-11,B3,310,machine_drygrain_Mgha,5.983790312500001,NA
+sexy2,25/26,aprows,2026-08-11,B3,310,machine_drystraw_Mgha,13.550078354262713,Single pass combine straw harvest
+sexy2,25/26,aprows,2026-08-11,B3,310,grainmoisture_pct,14.695,NA
+sexy2,25/26,aprows,2026-08-11,B3,310,dryprotein_pct,8.739602999999999,NA
+sexy2,25/26,aprows,2026-08-11,B3,310,tkw_g,27.2,NA
+sexy2,25/26,xp,2026-08-11,B3,311,machine_drygrain_Mgha,4.351428229166667,NA
+sexy2,25/26,xp,2026-08-11,B3,311,machine_drystraw_Mgha,17.348766629931642,Single pass combine straw harvest
+sexy2,25/26,xp,2026-08-11,B3,311,grainmoisture_pct,15.335,NA
+sexy2,25/26,xp,2026-08-11,B3,311,dryprotein_pct,8.300874499999999,NA
+sexy2,25/26,xp,2026-08-11,B3,311,tkw_g,24.200000000000003,NA
+sexy2,25/26,xa,2026-07-30,B3,312,machine_drygrain_Mgha,8.463305000000002,NA
+sexy2,25/26,xa,2026-07-30,B3,312,machine_drystraw_Mgha,9.446232730042972,Single pass combine straw harvest
+sexy2,25/26,xa,2026-07-30,B3,312,grainmoisture_pct,13.344999999999999,NA
+sexy2,25/26,xa,2026-07-30,B3,312,dryprotein_pct,7.851100500000001,NA
+sexy2,25/26,xa,2026-07-30,B3,312,tkw_g,34.519999999999996,NA
+sexy2,25/26,xpcc,2026-08-11,B4,401,machine_drygrain_Mgha,4.381265,NA
+sexy2,25/26,xpcc,2026-08-11,B4,401,machine_drystraw_Mgha,16.581666037481856,Single pass combine straw harvest
+sexy2,25/26,xpcc,2026-08-11,B4,401,grainmoisture_pct,15.440000000000001,NA
+sexy2,25/26,xpcc,2026-08-11,B4,401,dryprotein_pct,8.227974,NA
+sexy2,25/26,xpcc,2026-08-11,B4,401,tkw_g,23.74,NA
+sexy2,25/26,a,2026-07-30,B4,402,machine_drygrain_Mgha,8.60844875,NA
+sexy2,25/26,a,2026-07-30,B4,402,machine_drystraw_Mgha,9.495029768552403,Single pass combine straw harvest
+sexy2,25/26,a,2026-07-30,B4,402,grainmoisture_pct,13.265,NA
+sexy2,25/26,a,2026-07-30,B4,402,dryprotein_pct,8.127020000000002,NA
+sexy2,25/26,a,2026-07-30,B4,402,tkw_g,35.019999999999996,NA
+sexy2,25/26,xa,2026-07-30,B4,403,machine_drygrain_Mgha,8.225634479166667,NA
+sexy2,25/26,xa,2026-07-30,B4,403,machine_drystraw_Mgha,9.49193193181558,Single pass combine straw harvest
+sexy2,25/26,xa,2026-07-30,B4,403,grainmoisture_pct,13.205,NA
+sexy2,25/26,xa,2026-07-30,B4,403,dryprotein_pct,8.0546495,NA
+sexy2,25/26,xa,2026-07-30,B4,403,tkw_g,32.339999999999996,NA
+sexy2,25/26,pcc,2026-08-11,B4,404,machine_drygrain_Mgha,4.4696521874999995,NA
+sexy2,25/26,pcc,2026-08-11,B4,404,machine_drystraw_Mgha,17.340852045524976,Single pass combine straw harvest
+sexy2,25/26,pcc,2026-08-11,B4,404,grainmoisture_pct,14.965,NA
+sexy2,25/26,pcc,2026-08-11,B4,404,dryprotein_pct,8.796985500000002,NA
+sexy2,25/26,pcc,2026-08-11,B4,404,tkw_g,24.68,NA
+sexy2,25/26,xaprows,2026-08-11,B4,405,machine_drygrain_Mgha,6.150510416666667,NA
+sexy2,25/26,xaprows,2026-08-11,B4,405,machine_drystraw_Mgha,12.834893806316474,Single pass combine straw harvest
+sexy2,25/26,xaprows,2026-08-11,B4,405,grainmoisture_pct,14.675,NA
+sexy2,25/26,xaprows,2026-08-11,B4,405,dryprotein_pct,7.7816335,NA
+sexy2,25/26,xaprows,2026-08-11,B4,405,tkw_g,28.240000000000002,NA
+sexy2,25/26,acc,2026-07-30,B4,406,machine_drygrain_Mgha,8.576106666666666,NA
+sexy2,25/26,acc,2026-07-30,B4,406,machine_drystraw_Mgha,10.209073859148077,Single pass combine straw harvest
+sexy2,25/26,acc,2026-07-30,B4,406,grainmoisture_pct,13.08,NA
+sexy2,25/26,acc,2026-07-30,B4,406,dryprotein_pct,8.2356735,NA
+sexy2,25/26,acc,2026-07-30,B4,406,tkw_g,33.48,NA
+sexy2,25/26,aprows,2026-08-11,B4,407,machine_drygrain_Mgha,6.359511875,NA
+sexy2,25/26,aprows,2026-08-11,B4,407,machine_drystraw_Mgha,13.82105915653553,Single pass combine straw harvest
+sexy2,25/26,aprows,2026-08-11,B4,407,grainmoisture_pct,14.469999999999999,NA
+sexy2,25/26,aprows,2026-08-11,B4,407,dryprotein_pct,8.578637,NA
+sexy2,25/26,aprows,2026-08-11,B4,407,tkw_g,29.9,NA
+sexy2,25/26,xp,2026-08-11,B4,408,machine_drygrain_Mgha,4.242102083333333,NA
+sexy2,25/26,xp,2026-08-11,B4,408,machine_drystraw_Mgha,16.43731089699817,Single pass combine straw harvest
+sexy2,25/26,xp,2026-08-11,B4,408,grainmoisture_pct,15.65,NA
+sexy2,25/26,xp,2026-08-11,B4,408,dryprotein_pct,8.755548000000001,NA
+sexy2,25/26,xp,2026-08-11,B4,408,tkw_g,23.32,NA
+sexy2,25/26,p,2026-08-11,B4,409,machine_drygrain_Mgha,4.333786875,NA
+sexy2,25/26,p,2026-08-11,B4,409,machine_drystraw_Mgha,16.444018647320323,Single pass combine straw harvest
+sexy2,25/26,p,2026-08-11,B4,409,grainmoisture_pct,14.815000000000001,NA
+sexy2,25/26,p,2026-08-11,B4,409,dryprotein_pct,8.999802500000001,NA
+sexy2,25/26,p,2026-08-11,B4,409,tkw_g,23.64,NA
+sexy2,25/26,apmix,2026-08-11,B4,410,machine_drygrain_Mgha,6.37681875,NA
+sexy2,25/26,apmix,2026-08-11,B4,410,machine_drystraw_Mgha,12.64625391523723,Single pass combine straw harvest
+sexy2,25/26,apmix,2026-08-11,B4,410,grainmoisture_pct,14.620000000000001,NA
+sexy2,25/26,apmix,2026-08-11,B4,410,dryprotein_pct,8.2946705,NA
+sexy2,25/26,apmix,2026-08-11,B4,410,tkw_g,28.66,NA
+sexy2,25/26,xacc,2026-07-30,B4,411,machine_drygrain_Mgha,7.87986875,NA
+sexy2,25/26,xacc,2026-07-30,B4,411,machine_drystraw_Mgha,9.408039674059548,Single pass combine straw harvest
+sexy2,25/26,xacc,2026-07-30,B4,411,grainmoisture_pct,13.94,NA
+sexy2,25/26,xacc,2026-07-30,B4,411,dryprotein_pct,7.381459166666668,NA
+sexy2,25/26,xacc,2026-07-30,B4,411,tkw_g,31.099999999999998,NA
+sexy2,25/26,xapmix,2026-08-11,B4,412,machine_drygrain_Mgha,6.247599166666667,NA
+sexy2,25/26,xapmix,2026-08-11,B4,412,machine_drystraw_Mgha,11.435415566432328,Single pass combine straw harvest
+sexy2,25/26,xapmix,2026-08-11,B4,412,grainmoisture_pct,14.66,NA
+sexy2,25/26,xapmix,2026-08-11,B4,412,dryprotein_pct,7.7061519999999994,NA
+sexy2,25/26,xapmix,2026-08-11,B4,412,tkw_g,30.64,NA
